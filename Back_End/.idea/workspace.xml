@@ -9,21 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Added Some Segment In Frond End">
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/pages/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/img/img1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/img/img2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/img/img3.jpg" beforeDir="false" />
@@ -33,6 +22,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,7 +67,8 @@
     "last_opened_file_path": "D:/ijse64/front end/Front_End",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f396fa4fe2462f7195e58e32f9682886"
   }
 }]]></component>
   <component name="RunManager">
@@ -171,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697292982131</updated>
-      <workItem from="1697292989780" duration="5108000" />
+      <workItem from="1697292989780" duration="6224000" />
+      <workItem from="1697311956282" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697295842838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Some Segment In Frond End">
+      <created>1697301228280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697301228280</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Some Segment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Some Segment" />
+    <MESSAGE value="Added Some Segment In Frond End" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Some Segment In Frond End" />
   </component>
 </project>
