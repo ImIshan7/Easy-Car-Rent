@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/3d-render-secure-login-password-illustration.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,6 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/ijse64/front end/Front_End",
+    "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -166,7 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697292982131</updated>
       <workItem from="1697292989780" duration="6224000" />
-      <workItem from="1697311956282" duration="2837000" />
+      <workItem from="1697311956282" duration="3243000" />
+      <workItem from="1697351572486" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -189,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697315512008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete Login Form In Front End">
+      <created>1697315647247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697315647247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
