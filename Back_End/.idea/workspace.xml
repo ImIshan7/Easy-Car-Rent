@@ -10,8 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/message/icons8-male-user-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/message/icons8-manager-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +176,12 @@
       <workItem from="1697292989780" duration="6224000" />
       <workItem from="1697311956282" duration="3243000" />
       <workItem from="1697351572486" duration="4200000" />
-      <workItem from="1697439842845" duration="1464000" />
+      <workItem from="1697439842845" duration="2321000" />
+      <workItem from="1697534735439" duration="415000" />
+      <workItem from="1697536841319" duration="906000" />
+      <workItem from="1697539159677" duration="1841000" />
+      <workItem from="1697551571020" duration="45000" />
+      <workItem from="1697551632224" duration="3115000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -214,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697440375606</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Content Updated &quot;Driver Manage&quot;">
+      <created>1697480395538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697480395538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +244,7 @@
     <MESSAGE value="Complete Login Form In Front End" />
     <MESSAGE value="Start Customer manage in Front End" />
     <MESSAGE value="Content Updated &quot;Car Manage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Car Manage&quot;" />
+    <MESSAGE value="Content Updated &quot;Driver Manage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Driver Manage&quot;" />
   </component>
 </project>
