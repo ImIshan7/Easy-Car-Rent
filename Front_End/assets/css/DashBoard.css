@@ -5,8 +5,8 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    background: #f6f9ff;
-    color: #444444;
+    background: #3a3737;
+    color: #d71a1a;
 }
 
 a {
@@ -59,7 +59,7 @@ h6 {
     font-size: 24px;
     margin-bottom: 0;
     font-weight: 600;
-    color: #fd8b05;
+    color: #07ff00;
 }
 
 /*Back To Top Button*/
@@ -237,7 +237,7 @@ h6 {
 .card-header,
 .card-footer {
     border-color: #ebeef4;
-    background-color: #fff;
+    background-color: #ff6d00;
     color: #fc5c65;
     padding: 15px;
 }
@@ -261,7 +261,7 @@ h6 {
 }
 
 .card-img-overlay {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(4, 88, 175, 0.6);
 }
 
 /* Alerts */
@@ -377,7 +377,7 @@ h6 {
 .logo span {
     font-size: 28px;
     font-weight: bolder;
-    color: #000000;
+    color: #27dc3f;
     font-family: "Inter", sans-serif;
     margin-left: 10px;
 }
@@ -390,7 +390,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     height: 60px;
-    box-shadow: 0 2px 20px rgba(1, 41, 112, 0.1);
+    box-shadow: 0 2px 20px rgba(107, 153, 204, 0.1);
     background-color: #fff;
     padding-left: 20px;
 
@@ -501,9 +501,21 @@ form .btn {
 }
 
 .header-nav > ul {
-    margin: 0;
+    margin:700px;
     padding: 0;
 }
+
+.logoUp{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 550px;
+
+
+
+}
+
+
 
 .header-nav .nav-icon {
     font-size: 22px;
@@ -697,6 +709,8 @@ form .btn {
 .sidebar-nav {
     padding: 0;
     margin: 0;
+
+
     list-style: none;
 }
 
@@ -713,7 +727,7 @@ form .btn {
 .sidebar-nav .nav-heading {
     font-size: 11px;
     text-transform: uppercase;
-    color: #899bbd;
+    color: #fd8b05;
     font-weight: 600;
     margin: 10px 0 5px 15px;
 }
@@ -723,7 +737,7 @@ form .btn {
     align-items: center;
     font-size: 15px;
     font-weight: 600;
-    color: #4154f1;
+    color: #fd8b05;
     transition: 0.3s;
     background: #f6f9ff;
     padding: 10px 15px;
@@ -733,16 +747,16 @@ form .btn {
 .sidebar-nav .nav-link i {
     font-size: 16px;
     margin-right: 10px;
-    color: #4154f1;
+    color: #fd8b05;
 }
 
 .sidebar-nav .nav-link.collapsed {
-    color: #012970;
+    color: #ff6d00;
     background: #fff;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-    color: #899bbd;
+    color: #ffffff;
 }
 
 .sidebar-nav .nav-link:hover {

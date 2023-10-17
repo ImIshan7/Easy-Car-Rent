@@ -12,6 +12,8 @@
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,7 @@
       <workItem from="1697536841319" duration="906000" />
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
-      <workItem from="1697551632224" duration="4077000" />
+      <workItem from="1697551632224" duration="10477000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697554967805</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Content Updated &quot;Customer Request&quot;">
+      <created>1697555802893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697555802893</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
