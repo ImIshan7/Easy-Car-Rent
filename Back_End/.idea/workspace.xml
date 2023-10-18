@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
-      <workItem from="1697636079953" duration="4740000" />
+      <workItem from="1697636079953" duration="5317000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -311,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697640230237</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Content Updated &quot;Customer Dashboard Manage&quot;">
+      <created>1697643016417</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697643016417</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Content Updated &quot;Customer Dashboard Manage&quot;">
+      <created>1697643256514</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697643256514</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +343,7 @@
     <MESSAGE value="Content Updated &quot;Admin Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Income Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Rent Details Manage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Rent Details Manage&quot;" />
+    <MESSAGE value="Content Updated &quot;Customer Dashboard Manage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Customer Dashboard Manage&quot;" />
   </component>
 </project>
