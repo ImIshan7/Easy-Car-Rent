@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
-      <workItem from="1697636079953" duration="2878000" />
+      <workItem from="1697636079953" duration="3334000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -297,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697638796938</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Content Updated &quot;Rent Details Manage&quot;">
+      <created>1697639811664</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697639811664</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +322,7 @@
     <MESSAGE value="Content Updated &quot;Payment_Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Admin Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Income Details Manage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Income Details Manage&quot;" />
+    <MESSAGE value="Content Updated &quot;Rent Details Manage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Rent Details Manage&quot;" />
   </component>
 </project>
