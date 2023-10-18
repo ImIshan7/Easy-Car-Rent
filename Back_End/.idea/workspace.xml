@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
-      <workItem from="1697636079953" duration="8108000" />
+      <workItem from="1697636079953" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697646023145</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Content Updated &quot;Driver Dashboard Manage&quot;">
+      <created>1697646622329</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1697646622329</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +386,7 @@
     <MESSAGE value="Content Updated &quot;Income Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Rent Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Customer Dashboard Manage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Customer Dashboard Manage&quot;" />
+    <MESSAGE value="Content Updated &quot;Driver Dashboard Manage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Driver Dashboard Manage&quot;" />
   </component>
 </project>
