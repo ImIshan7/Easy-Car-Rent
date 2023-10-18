@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Front_End/pages/IncomeDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/DashBoard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/fonts/less/_animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/fonts/less/_animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/vendor/styleslog/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/vendor/styleslog/sb-admin-2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,8 @@
       <workItem from="1697536841319" duration="906000" />
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
-      <workItem from="1697551632224" duration="18030000" />
+      <workItem from="1697551632224" duration="18274000" />
+      <workItem from="1697636079953" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697567087755</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Content Updated &quot;Admin Dashboard Manage&quot;">
+      <created>1697571007356</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697571007356</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +300,7 @@
     <MESSAGE value="Content Updated &quot;Car Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Driver Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Payment_Details Manage&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Payment_Details Manage&quot;" />
+    <MESSAGE value="Content Updated &quot;Admin Dashboard Manage&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Admin Dashboard Manage&quot;" />
   </component>
 </project>

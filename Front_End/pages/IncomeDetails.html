@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Income Details Manage</title>
+    <link href="../assets/logo/Colorful%20Vintage%20Retro%20Car%20Logo.png" rel="icon">
+
+    <meta content="Easy Car Rental,Car Rent,Vehicle,Store" name="keywords">
+    <meta content="This is Car Rental Web Project." name="description">
+    <meta conrent="Ishan Dhananjana" name="author">
+    <meta content="Ishan Dhananjana" name="owner">
+    <meta content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=no" name="viewport">
+    <meta content="green" name="theme-color">
+
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <link href="../assets/vendor/styleslog/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/vendor/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/DashBoard.css">
+</head>
+<body>
+
+<!-- ======= Main ======= -->
+<main id="main" class="main">
+
+    <!-- ======= Income Details ======= -->
+    <div class="pageTitle" id="income">
+        <h1>Income Details Manage</h1>
+        <section class="container-fluid mt-3" id="manageCar">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="AdminDashboard.html">Home</a></li>
+                    <li class="breadcrumb-item active">Income Details</li>
+                </ol>
+            </nav>
+
+            <section class="section">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Daily Income</h5>
+                                <div class="row mt-3 mt-md-2 mt-lg-4 justify-content-around"
+                                     style="height: 340px;">
+                                    <div class="col-11 justify-content-around sectionBorder"
+                                         style="height: 325px; background: white">
+                                        <div class="table-responsive customerTableDiv overflow-auto "
+                                             style="height: 315px;">
+                                            <table class="table text-nowrap table-light table-striped table-bordered table-hover">
+                                                <thead class="text-dark table-danger text-center  table-bordered">
+                                                <tr>
+                                                    <th scope="col">Date</th>
+                                                    <th scope="col">Bookings</th>
+                                                    <th scope="col"> Daily Income</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="dailyIncomeTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Daily Income</h5>
+
+                                <!-- Line Chart -->
+                                <div id="dailyIncomeChart" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+                                <!-- End Line CHart -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Monthly Income</h5>
+                                <div class="row mt-3 mt-md-2 mt-lg-4 justify-content-around"
+                                     style="height: 340px;">
+                                    <div class="col-11 justify-content-around sectionBorder"
+                                         style="height: 325px; background: white">
+                                        <div class="table-responsive customerTableDiv overflow-auto "
+                                             style="height: 315px;">
+                                            <table class="table text-nowrap table-light table-striped table-bordered table-hover">
+                                                <thead class="text-dark table-danger text-center  table-bordered">
+                                                <tr>
+                                                    <th scope="col">Month</th>
+                                                    <th scope="col">Bookings</th>
+                                                    <th scope="col"> Monthly Income</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="monthlyIncomeTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Monthly Income</h5>
+
+                                <!-- Line Chart -->
+                                <canvas id="monthlyIncomeChart" style="max-height: 400px; display: block; box-sizing: border-box; height: 359px; width: 719px;" width="719" height="359"></canvas>
+                                <!-- End Line CHart -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Annually Income</h5>
+                                <div class="row mt-3 mt-md-2 mt-lg-4 justify-content-around"
+                                     style="height: 340px;">
+                                    <div class="col-11 justify-content-around sectionBorder"
+                                         style="height: 325px; background: white">
+                                        <div class="table-responsive customerTableDiv overflow-auto "
+                                             style="height: 315px;">
+                                            <table class="table text-nowrap table-light table-striped table-bordered table-hover">
+                                                <thead class="text-dark table-danger text-center  table-bordered">
+                                                <tr>
+                                                    <th scope="col">Year</th>
+                                                    <th scope="col">Bookings</th>
+                                                    <th scope="col"> Annually Income</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="annuallyIncomeTable"></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Annually Income</h5>
+
+                                <!-- Line Chart -->
+                                <canvas id="annuallyIncomeChart" style="max-height: 400px; display: block; box-sizing: border-box; height: 359px; width: 719px;" width="719" height="359"></canvas>
+                                <!-- End Line CHart -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+    </div>
+    <!-- End Income Details -->
+
+</main>
+<!-- End #main -->
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+    <div class="copyright">
+        &copy; Copyright <strong><span>Easy Car Rent</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed by <a href="">Ishan Dhananjana</a>
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="../assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="../assets/vendor/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/jQuery/jquery-3.6.1.min.js "></script>
+<script rel="script" src="../assets/vendor/sweetalert2-11.6.16/sweetalert2.min.js"></script>
+<script src="../assets/vendor/chart.js/chart.umd.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script src="../assets/vendor/chart.js/canvasjs.min.js"></script>
+</body>
+</html>
