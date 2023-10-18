@@ -175,7 +175,7 @@
       <workItem from="1697539159677" duration="1841000" />
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
-      <workItem from="1697636079953" duration="5317000" />
+      <workItem from="1697636079953" duration="5627000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697643256514</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Content Updated &quot;Customer Dashboard Manage&quot;">
+      <created>1697643576665</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1697643576665</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
