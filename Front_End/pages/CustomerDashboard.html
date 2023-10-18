@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Dashboard </title>
+    <link href="../assets/logo/Colorful%20Vintage%20Retro%20Car%20Logo.png" rel="icon">
+
+    <meta content="Easy Car Rental,Car Rent,Vehicle,Store" name="keywords">
+    <meta content="This is Car Rental Web Project." name="description">
+    <meta conrent="Ishan Dhananjana" name="author">
+    <meta content="Ishan Dhananjana" name="owner">
+    <meta content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=no" name="viewport">
+    <meta content="green" name="theme-color">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap-5.2.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/sweetalert2-11.6.16/sweetalert2.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- Template Dashboard CSS File -->
+    <link rel="stylesheet" href="../assets/css/DashBoard.css">
+</head>
+<body>
+
+<!-- ======= Main ======= -->
+<main id="main" class="main">
+
+    <div class="pageTitle">
+        <h1>Customer Dashboard</h1>
+        <section class="container-fluid mt-3" id="bookingResponse">
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Home</a></li>
+                    <li class="breadcrumb-item active">Booking Details</li>
+                </ol>
+            </nav>
+
+            <div class="row mt-3">
+                <div class="card info-card">
+
+                    <!-- start button content-->
+                    <div class="mb-3 mt-5 d-grid gap-1 d-md-flex justify-content-md-center">
+                        <form>
+                            <div class="col col-lg-12 col-sm-8">
+                                <label class="form-label" for="responseRentId">Rent ID<span
+                                        class="text-danger"></span></label>
+                                <input class="form-control" id="responseRentId" readonly
+                                       name="rent_Id"
+                                       placeholder="Rent ID" type="text">
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-danger btn mt-4 m-4  h-50" id="btnDeleteRental">
+                            Delete Rental
+                        </button>
+                    </div>
+                    <!-- end button content-->
+                </div>
+            </div>
+
+
+</body>
+</html>
