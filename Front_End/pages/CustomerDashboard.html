@@ -556,6 +556,40 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
+<script>
+    $(document).ready(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#userDashboardSection").click(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#rentSection").click(function () {
+        $("#bookingResponse").css('display', 'none');
+        $("#rentDetails").css('display', 'block');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#bookingResponseSection").click(function () {
+        $("#bookingResponse").css('display', 'block');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'none');
+    });
+
+    $("#myDetailsSection,#userDetails,#userDetailss").click(function () {
+        $("#bookingResponse").css('display', 'none');
+        $("#rentDetails").css('display', 'none');
+        $("#profileDetails").css('display', 'block');
+    });
+
+
+</script>
+
 
 </body>
 </html>
