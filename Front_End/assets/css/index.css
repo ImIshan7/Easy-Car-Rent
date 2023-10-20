@@ -594,3 +594,74 @@ About Section*/
     border: 0;
     border-bottom: 2px solid #b6b6bf;
 }
+
+@media (max-width: 575px) {
+    .cars .nav-link {
+        margin: 0 10px;
+        padding: 10px 0;
+    }
+}
+
+.cars .nav-link i {
+    padding-right: 15px;
+    font-size: 48px;
+}
+
+.cars .nav-link h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    font-family: "JetBrains Mono";
+}
+
+@media (max-width: 575px) {
+    .cars .nav-link h4 {
+        font-size: 16px;
+    }
+}
+
+.cars .nav-link:hover {
+    color: #16D210FF;
+}
+
+.cars .nav-link.active {
+    color: #16D210FF;
+    border-color: #16D210FF;
+}
+
+.cars .tab-content .tab-header {
+    padding: 30px 0;
+}
+.cars .tab-content .tab-header p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0;
+}
+.cars .tab-content .tab-header h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #16D210FF;
+}
+
+.cars .tab-content .cars-item {
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.cars-img {
+    padding: 0 60px;
+    margin-bottom: 15px;
+    width: 25rem;
+}
+
+.cars .tab-content .cars-item h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #37373f;
+    font-family: "JetBrains Mono";
+    margin-bottom: 5px;
+
+}
+
+
