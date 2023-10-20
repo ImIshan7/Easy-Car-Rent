@@ -519,3 +519,78 @@ About Section*/
     font-weight: 700;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+                       /*   .........................Car Section.....................*/
+
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: relative;
+    top: 1rem;
+    background: white;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow:0 .5rem 1rem rgba(0, 0, 0, .1);
+    font-size: 15px;
+}
+
+.input-box {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box span {
+    font-weight: 500;
+}
+
+.input-box input {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-container .btn {
+    font-weight: 500;
+    height: 40px;
+    margin: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #0cff00;
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+.form-container .btn:hover {
+    background: rgba(206, 18, 18, 0.8);
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+}
+
+.cars .nav-tabs {
+    border: 0;
+}
+
+.cars .contentDiv {
+    display: inline-flex;
+}
+
+.cars .nav-link {
+    margin: 0 10px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    color: #37373f;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid #b6b6bf;
+}
