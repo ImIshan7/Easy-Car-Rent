@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/cars/mainCar.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Front_End/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +180,7 @@
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
-      <workItem from="1697778404121" duration="7896000" />
+      <workItem from="1697778404121" duration="10844000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -411,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697784794823</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Content Updated &quot;Main Page&quot;">
+      <created>1697786439557</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697786439557</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
