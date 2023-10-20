@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;Main Page - ABOUT&quot;">
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/about01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/cars/carCounter.png" afterDir="false" />
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;Main Page - Counter&quot;">
       <change afterPath="$PROJECT_DIR$/../Front_End/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +177,7 @@
       <workItem from="1697551571020" duration="45000" />
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
-      <workItem from="1697778404121" duration="13337000" />
+      <workItem from="1697778404121" duration="13978000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -429,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697789553211</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Content Updated &quot;Main Page - Counter&quot;">
+      <created>1697813995018</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697813995018</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,6 +454,7 @@
     <MESSAGE value="Content Updated &quot;Driver Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - ABOUT&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - ABOUT&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Counter&quot;" />
   </component>
 </project>
