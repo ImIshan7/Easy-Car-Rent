@@ -79,6 +79,61 @@ Section {
 .section-header p span {
     color: #00ff2d;
 }
+
+
+        /*...................Breadcrumbs..............*/
+
+
+.breadcrumbs {
+    padding: 15px 0;
+    background: rgba(55, 55, 63, 0.05);
+    margin-top: 90px;
+}
+
+
+@media (max-width: 575px) {
+    .breadcrumbs {
+        margin-top: 70px;
+    }
+}
+
+.breadcrumbs h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #676775;
+    content: "/";
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1280px) {
     .navbar {
         padding: 0;
@@ -1213,14 +1268,14 @@ About Section*/
 
 .footer {
     font-size: 14px;
-    background: #0F2027;
+    background: #143c52;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: -webkit-linear-gradient(to right, #419cc4, #9baeb6, #0F2027);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 50px 0;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -1235,14 +1290,14 @@ About Section*/
     position: relative;
     font-weight: bold;
     padding-bottom: 5px;
-    color: #fff;
+    color: #fd8b05;
 }
 
 .text {
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
     padding-bottom: 5px;
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -1267,7 +1322,7 @@ About Section*/
 }
 
 .footer .footer-links ul a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
