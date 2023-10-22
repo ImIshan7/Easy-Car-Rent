@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +177,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="16397000" />
-    </task>
-    <task id="LOCAL-00042" summary="Content Updated &quot;Main Page - Counter&quot;">
-      <created>1697952827701</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1697952827701</updated>
+      <workItem from="1697950935961" duration="16749000" />
     </task>
     <task id="LOCAL-00043" summary="Content Updated &quot;Main Page - Counter&quot;">
       <created>1697953090110</created>
@@ -522,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697967790900</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Content Updated &quot;Main Page - Index JS&quot;">
+      <created>1697983551621</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1697983551621</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,6 +552,7 @@
     <MESSAGE value="Content Updated &quot;Main Page - Contact&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Footer&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page - Index JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Index JS&quot;" />
   </component>
 </project>
