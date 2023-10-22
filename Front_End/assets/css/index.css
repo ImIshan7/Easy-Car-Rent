@@ -1276,3 +1276,51 @@ About Section*/
 .footer .footer-links ul a:hover {
     color: #fff;
 }
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .credits {
+    padding-top: 4px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer .credits a {
+    color: #fff;
+}
+
+form .form-label,.input-group-text{
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #2c3e50;
+}
+
+form .form-control {
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: #2f3640;
+    border-radius: 10px!important;
+}
