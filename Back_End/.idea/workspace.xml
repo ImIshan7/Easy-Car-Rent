@@ -177,28 +177,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="16749000" />
-    </task>
-    <task id="LOCAL-00043" summary="Content Updated &quot;Main Page - Counter&quot;">
-      <created>1697953090110</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1697953090110</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Content Updated &quot;Main Page - Counter&quot;">
-      <created>1697953360541</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1697953360541</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Content Updated &quot;Main Page - FeedBack&quot;">
-      <created>1697953482051</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1697953482051</updated>
+      <workItem from="1697950935961" duration="17094000" />
     </task>
     <task id="LOCAL-00046" summary="Content Updated &quot;Main Page - FeedBack&quot;">
       <created>1697953560032</created>
@@ -522,7 +501,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697983551621</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Content Updated &quot;Main Page - Index JS&quot;">
+      <created>1697983590154</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1697983590154</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Content Updated &quot;Main Page - Index JS&quot;">
+      <created>1697983661057</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1697983661057</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Content Updated &quot;Main Page - Index JS&quot;">
+      <created>1697983890581</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1697983890581</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
