@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,21 +177,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="10671000" />
-    </task>
-    <task id="LOCAL-00038" summary="Content Updated &quot;Main Page - Counter&quot;">
-      <created>1697814984002</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1697814984002</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Content Updated &quot;Main Page - Counter&quot;">
-      <created>1697815402470</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1697815402470</updated>
+      <workItem from="1697950935961" duration="10983000" />
     </task>
     <task id="LOCAL-00040" summary="Content Updated &quot;Main Page - Cars&quot;">
       <created>1697816332412</created>
@@ -523,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697960889887</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Content Updated &quot;Main Page&quot;">
+      <created>1697962118134</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1697962118134</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Content Updated &quot;Main Page&quot;">
+      <created>1697962198263</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1697962198263</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +543,6 @@
     <MESSAGE value="Content Updated &quot;Rent Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Customer Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Driver Dashboard Manage&quot;" />
-    <MESSAGE value="Content Updated &quot;Main Page&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - ABOUT&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Cars&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
@@ -553,6 +551,7 @@
     <MESSAGE value="Content Updated &quot;Main Page - Gallery&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Contact&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Footer&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Footer&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page&quot;" />
   </component>
 </project>
