@@ -1036,3 +1036,17 @@ About Section*/
 .gallery .swiper-slide-active {
     text-align: center;
 }
+
+@media (min-width: 992px) {
+    .gallery .swiper-wrapper {
+        padding: 40px 0;
+    }
+
+    .gallery .swiper-slide-active {
+        border: 6px solid #fc5c65;
+        padding: 4px;
+        background: #fff;
+        z-index: 1;
+        transform: scale(1.2);
+    }
+}
