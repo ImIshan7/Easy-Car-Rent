@@ -1207,3 +1207,42 @@ About Section*/
         transform: rotate(360deg);
     }
 }
+
+
+                      /*.................Footer Section..................*/
+
+.footer {
+    font-size: 14px;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.footer .icon {
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.footer h4 {
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.text {
+    font-size: 15px;
+    position: relative;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+
