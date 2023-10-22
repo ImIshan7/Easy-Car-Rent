@@ -10,7 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,35 +184,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="4710000" />
-    </task>
-    <task id="LOCAL-00012" summary="Content Updated &quot;Car Manage&quot;">
-      <created>1697565901749</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1697565901749</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Content Updated &quot;Driver Manage&quot;">
-      <created>1697565934705</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1697565934705</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Content Updated &quot;Payment_Details Manage&quot;">
-      <created>1697567087755</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1697567087755</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Content Updated &quot;Admin Dashboard Manage&quot;">
-      <created>1697571007356</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1697571007356</updated>
+      <workItem from="1697950935961" duration="5883000" />
     </task>
     <task id="LOCAL-00016" summary="Content Updated &quot;Income Details Manage&quot;">
       <created>1697638625609</created>
@@ -522,7 +501,35 @@
       <option name="project" value="LOCAL" />
       <updated>1697955764735</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955962031</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955962031</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697956021626</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1697956021626</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697956116869</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1697956116869</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697956153521</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1697956153521</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
