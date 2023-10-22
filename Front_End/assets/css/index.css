@@ -1107,3 +1107,41 @@ About Section*/
     margin: 4px 6px 0 0;
     transition: 0.3s;
 }
+
+.contact .info-item .social-links a:hover {
+    color: #16D210FF;
+}
+
+.contact .email-form {
+    width: 100%;
+    margin-top: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 30%) 0 19px 38px, rgb(0 0 0 / 22%) 0 15px 12px;
+}
+
+.contact .email-form .form-group {
+    padding-bottom: 20px;
+}
+
+.contact .email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #df1529;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .email-form .error-message br + br {
+    margin-top: 25px;
+}
+
+.contact .email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
