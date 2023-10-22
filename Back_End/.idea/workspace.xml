@@ -10,13 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/img/gallery/pic06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,21 +177,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="5883000" />
-    </task>
-    <task id="LOCAL-00016" summary="Content Updated &quot;Income Details Manage&quot;">
-      <created>1697638625609</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1697638625609</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Content Updated &quot;Income Details Manage&quot;">
-      <created>1697638796938</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1697638796938</updated>
+      <workItem from="1697950935961" duration="6660000" />
     </task>
     <task id="LOCAL-00018" summary="Content Updated &quot;Rent Details Manage&quot;">
       <created>1697639811664</created>
@@ -529,7 +508,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697956153521</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Content Updated &quot;Main Page - Gallery&quot;">
+      <created>1697957150743</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1697957150743</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Content Updated &quot;Main Page - Gallery&quot;">
+      <created>1697957230127</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1697957230127</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,6 +549,7 @@
     <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - FeedBack&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page - Gallery&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Gallery&quot;" />
   </component>
 </project>
