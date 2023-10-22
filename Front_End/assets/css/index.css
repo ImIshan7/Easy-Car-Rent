@@ -945,5 +945,21 @@ About Section*/
     animation: animate-loading 1s linear infinite;
 }
 
+.Register-customer-new .reg-customer-form input,
+.Register-customer-new .reg-customer-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
 
+.Register-customer-new .reg-customer-form input:focus {
+    border-color: #16D210FF;
+}
 
+.Register-customer-new .reg-customer-form input {
+    padding: 12px 15px;
+}
+
+.Register-customer-new .width {
+    width: 25.2em;
+}
