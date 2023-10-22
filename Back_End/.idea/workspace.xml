@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;Main Page - Counter&quot;">
       <change afterPath="$PROJECT_DIR$/../Front_End/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
@@ -179,7 +180,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="2393000" />
+      <workItem from="1697950935961" duration="3923000" />
     </task>
     <task id="LOCAL-00001" summary="Added Some Segment">
       <created>1697295842838</created>
@@ -482,7 +483,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697953090110</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Content Updated &quot;Main Page - Counter&quot;">
+      <created>1697953360541</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1697953360541</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Content Updated &quot;Main Page - FeedBack&quot;">
+      <created>1697953482051</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1697953482051</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Content Updated &quot;Main Page - FeedBack&quot;">
+      <created>1697953560032</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697953560032</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,8 +528,8 @@
     <MESSAGE value="Content Updated &quot;Main Page&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - ABOUT&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Cars&quot;" />
-    <MESSAGE value="Content Updated &quot;Main Page - FeedBack&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Counter&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page - FeedBack&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - FeedBack&quot;" />
   </component>
 </project>
