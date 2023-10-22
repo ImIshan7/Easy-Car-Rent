@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;Main Page - Counter&quot;">
-      <change afterPath="$PROJECT_DIR$/../Front_End/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/css/index.css" afterDir="false" />
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,35 +177,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="3923000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added Some Segment">
-      <created>1697295842838</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1697295842838</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added Some Segment In Frond End">
-      <created>1697301228280</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1697301228280</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Complete Login Form In Front End">
-      <created>1697315512008</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697315512008</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Complete Login Form In Front End">
-      <created>1697315647247</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697315647247</updated>
+      <workItem from="1697950935961" duration="4239000" />
     </task>
     <task id="LOCAL-00005" summary="Start Customer manage in Front End">
       <created>1697357325170</created>
@@ -504,7 +473,56 @@
       <option name="project" value="LOCAL" />
       <updated>1697953560032</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955274907</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955274907</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955324788</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955324788</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955357335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955357335</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955382315</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955382315</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955405166</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955405166</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955427935</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955427935</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
+      <created>1697955456783</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1697955456783</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,6 +548,7 @@
     <MESSAGE value="Content Updated &quot;Main Page - Cars&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - FeedBack&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - FeedBack&quot;" />
+    <MESSAGE value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
   </component>
 </project>
