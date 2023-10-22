@@ -10,7 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Front_End/assets/js/mainDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/IncomeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/IncomeDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/PaymentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/PaymentDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +191,7 @@
       <workItem from="1697551632224" duration="18274000" />
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
-      <workItem from="1697950935961" duration="17094000" />
-    </task>
-    <task id="LOCAL-00046" summary="Content Updated &quot;Main Page - FeedBack&quot;">
-      <created>1697953560032</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1697953560032</updated>
+      <workItem from="1697950935961" duration="17850000" />
     </task>
     <task id="LOCAL-00047" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
       <created>1697955274907</created>
@@ -522,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697983890581</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Content Updated &quot;Main Page - Index JS&quot;">
+      <created>1697983936340</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1697983936340</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
