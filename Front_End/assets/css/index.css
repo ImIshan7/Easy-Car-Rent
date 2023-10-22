@@ -827,3 +827,23 @@ About Section*/
     top: 10px;
     transform: scale(-1, -1);
 }
+
+.testimonials .testimonial-item p {
+    font-style: italic;
+}
+
+.testimonials .swiper-pagination {
+    margin-top: 40px;
+    position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #d1d1d7;
+    opacity: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #16D210FF;
+}
