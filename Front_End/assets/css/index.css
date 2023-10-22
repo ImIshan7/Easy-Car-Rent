@@ -274,12 +274,12 @@ Section {
 .header .logo h1 {
     font-size: 28px;
     font-weight: bolder;
-    color: #000;
+    color: #a5faf9;
     margin: 0;
     font-family: "JetBrains Mono";
 }
 .header .logo h1 span {
-    color: #16D210FF;
+    color: #fd8b05;
 }
 
 .header .btn-Register-customer-new,
@@ -287,16 +287,40 @@ Section {
     font-size: 14px;
     font-weight: bolder;
     color: #fff;
-    background: #16D210FF;
+    background: #fd8b05;
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 50px;
     transition: 0.3s;
 }
 
+.header .btn-Register-customer-new:hover,
+.header .btn-Register-customer-new:focus:hover {
+    color: #fff;
+    background: rgba(206, 18, 18, 0.8);
+}
 
+.header .btn-login-user,
+.header .btn-login-user:focus {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    background: #fd8b05;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
 
+.header .btn-login-user:hover,
+.header .btn-login-user:focus:hover {
+    color: #fff;
+    background: var(--color-primary);
+}
 
+section {
+    scroll-margin-top: 90px;
+}
 
 
 
@@ -351,7 +375,7 @@ Section {
         height: 2px;
         bottom: -6px;
         left: 0;
-        background-color: greenyellow;
+        background-color: #16d210;
         visibility: hidden;
         width: 0px;
         transition: all 0.3s ease-in-out 0s;
@@ -405,7 +429,7 @@ Section {
     .navbar .dropdown ul a:hover,
     .navbar .dropdown ul .active:hover,
     .navbar .dropdown ul li:hover > a {
-        color: greenyellow;
+        color: #16d210;
     }
 
     .navbar .dropdown:hover > ul {
@@ -445,7 +469,118 @@ Section {
     }
 }
 
+                /* Mobile  Navigation*/
 
+@media (max-width: 1279px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        max-width: 400px;
+        border-left: 1px solid #666;
+        bottom: 0;
+        transition: 0.3s;
+        z-index: 9997;
+    }
+
+    .navbar ul {
+        position: absolute;
+        inset: 0;
+        padding: 50px 0 10px 0;
+        margin: 0;
+        background: rgba(255, 255, 255, 0.9);
+        overflow-y: auto;
+        transition: 0.3s;
+        z-index: 9998;
+    }
+
+    .navbar a,
+    .navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        font-family:"JetBrains Mono";
+        border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        font-weight: 600;
+        color: #7f7f90;
+        white-space: nowrap;
+        transition: 0.3s;
+    }
+
+    .navbar a i,
+    .navbar a:focus i {
+        font-size: 12px;
+        line-height: 0;
+        margin-left: 5px;
+    }
+
+    .navbar a:hover,
+    .navbar li:hover > a {
+        color: #000;
+    }
+
+    .navbar .active,
+    .navbar .active:focus {
+        color: #000;
+        border-color: var(--color-primary);
+    }
+
+    .navbar .dropdown ul,
+    .navbar .dropdown .dropdown ul {
+        position: static;
+        display: none;
+        padding: 10px 0;
+        margin: 10px 20px;
+        transition: all 0.5s ease-in-out;
+        border: 1px solid #eee;
+    }
+
+    .navbar .dropdown > .dropdown-active,
+    .navbar .dropdown .dropdown > .dropdown-active {
+        display: block;
+    }
+
+    .mobile-nav-show {
+        color:  #37373f;
+        font-size: 28px;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+        z-index: 9999;
+        margin: 0 10px 0 20px;
+    }
+
+    .mobile-nav-hide {
+        color: #37373f;
+        font-size: 32px;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        z-index: 9999;
+    }
+
+    .mobile-nav-active {
+        overflow: hidden;
+    }
+
+    .mobile-nav-active .navbar {
+        right: 0;
+    }
+
+    .mobile-nav-active .navbar:before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 9996;
+    }
+}
 
 /*Hero*/
 .hero {
@@ -457,19 +592,19 @@ Section {
 }
 
 .hero h2 {
-    font-size: 64px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #37373f;
+    color: #ffffff;
     font-family: "JetBrains Mono NL ExtraBold";
 }
 
 .hero h2 span {
-    color: greenyellow;
+    color: #16d210;
 }
 
 .hero p {
-    color: #4f4f5a;
+    color: #37373f;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -483,7 +618,7 @@ Section {
     border-radius: 50px;
     transition: 0.5s;
     color: #fff;
-    background: greenyellow;
+    background: #16d210;
     box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
@@ -509,7 +644,7 @@ Section {
 }
 
 .hero .btn-watch-video:hover {
-    color: greenyellow;
+    color: #16d210;
 }
 
 .hero .btn-watch-video:hover i {
