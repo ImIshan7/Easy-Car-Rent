@@ -7,8 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Easy_Car_Rent" />
+        <module name="Back_End" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Easy_Car_Rent" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

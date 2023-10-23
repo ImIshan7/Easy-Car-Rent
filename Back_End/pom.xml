@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Easy_Car_Rent</artifactId>
+    <artifactId>Back_End</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
+  <!--  Easy_Car_Rent-->
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -91,7 +91,6 @@
             <version>5.9.3</version>
             <scope>test</scope>
         </dependency>
-
 
     </dependencies>
 

@@ -27,8 +27,8 @@ import javax.sql.DataSource;
 public class JPAConfig {
 
     @Autowired
-    private Environment env;
-    @Bean
+     Environment env;
+   /* @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource ds, JpaVendorAdapter va) {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
         factoryBean.setPackagesToScan(env.getRequiredProperty("pro.entity"));
@@ -61,7 +61,40 @@ public class JPAConfig {
     @Bean
     public PlatformTransactionManager transactionManager(EntityManagerFactory emf) {
         return new JpaTransactionManager(emf);
+    }*/
+
+    @Bean
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource ds, JpaVendorAdapter vad){
+        LocalContainerEntityManagerFactoryBean factory= new LocalContainerEntityManagerFactoryBean();
+        factory.setDataSource(ds);
+        factory.setJpaVendorAdapter(vad);
+        factory.setPackagesToScan(env.getRequiredProperty("pro.entity"));
+        return factory;
     }
 
+    @Bean
+    public DataSource dataSource(){
+        DriverManagerDataSource ds= new DriverManagerDataSource();
+        ds.setUsername(env.getRequiredProperty("pro.username"));
+        ds.setPassword(env.getRequiredProperty("pro.password"));
+        ds.setDriverClassName(env.getRequiredProperty("pro.driver"));
+        ds.setUrl(env.getRequiredProperty("pro.url"));
+        return ds;
+    }
+
+    @Bean
+    public JpaVendorAdapter jpaVendorAdapter(){
+        HibernateJpaVendorAdapter va= new HibernateJpaVendorAdapter();
+        va.setDatabase(Database.MYSQL);
+        va.setGenerateDdl(true);
+        va.setDatabasePlatform(env.getRequiredProperty("pro.dial"));
+        va.setShowSql(true);
+        return va;
+    }
+
+    @Bean
+    public PlatformTransactionManager transactionManager(EntityManagerFactory factory){
+        return new JpaTransactionManager(factory);
+    }
 
     }
