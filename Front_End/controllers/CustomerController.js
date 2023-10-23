@@ -56,3 +56,25 @@ function generateCustomerID() {
         }
     });
 }
+
+
+/*Clear Input Fields*/
+
+function setTextFieldValues(firstName, lastName, contact_No, address, email, nic, license_No, nic_Img, license_Img, user_Name, password) {
+    $("#firstName").val(firstName);
+    $("#lastName").val(lastName);
+    $("#contact_No").val(contact_No);
+    $("#address").val(address);
+    $("#email").val(email);
+    $("#nic").val(nic);
+    $("#license_No").val(license_No);
+    $("#nic_Img").val(nic_Img);
+    $("#license_Img").val(license_Img);
+    $("#user_Name").val(user_Name);
+    $("#password").val(password);
+
+    $("#firstName").focus();
+    checkValidity(customerValidations);
+    $("#btnSaveCustomer").attr('disabled', true);
+}
+
