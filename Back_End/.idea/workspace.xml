@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,21 +180,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="4096000" />
-    </task>
-    <task id="LOCAL-00049" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955357335</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955357335</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955382315</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955382315</updated>
+      <workItem from="1698038910954" duration="4955000" />
     </task>
     <task id="LOCAL-00051" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
       <created>1697955405166</created>
@@ -523,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698043006231</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Content Updated &quot;LoginForm JS&quot;">
+      <created>1698043041896</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1698043041896</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Content Updated &quot;LoginForm JS&quot;">
+      <created>1698043075100</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1698043075100</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
