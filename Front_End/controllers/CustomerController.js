@@ -78,3 +78,81 @@ function setTextFieldValues(firstName, lastName, contact_No, address, email, nic
     $("#btnSaveCustomer").attr('disabled', true);
 }
 
+/*Load All Customers*/
+
+function loadAllRegUsers() {
+    $("#customerTable").empty();
+    $.ajax({
+        url: userBaseUrl + "reg_User/loadAllUsers", method: "GET", dataType: "json", success: function (res) {
+            console.log(res);
+
+            for (let i of res.data) {
+                let user_Id = i.user_Id;
+                let firstName = i.name.firstName;
+                let lastName = i.name.lastName;
+                let contact_No = i.contact_No;
+                let address = i.address;
+                let email = i.email;
+                let nic = i.nic;
+                let license_No = i.license_No;
+                let nic_Img = i.nic_Img;
+                let license_Img = i.license_Img;
+                let role_Type = i.user.role_Type;
+                let user_Name = i.user.user_Name;
+                let password = i.user.password;
+
+                let row = "<tr><td>" + user_Id + "</td><td>" + firstName + "</td><td>" + lastName + "</td><td>" + contact_No + "</td><td>" + address + "</td><td>" + email + "</td><td>" + nic + "</td><td>" + license_No + "</td><td>" + role_Type + "</td><td>" + user_Name + "</td><td>" + password + "</td></tr>";
+                $("#customerTable").append(row);
+            }
+            blindClickEvents();
+            generateCustomerID();
+            setTextFieldValues("", "", "", "", "", "", "", "", "", "", "");
+            console.log(res.message);
+        }, error: function (error) {
+            let message = JSON.parse(error.responseText).message;
+            console.log(message);
+        }
+    });
+}
+
+
+/*Search ID and Load Table*/
+
+$("#search_Id").on("keypress", function (event) {
+    if (event.which === 13) {
+        var search = $("#search_Id").val();
+        $("#customerTable").empty();
+        $.ajax({
+            url: userBaseUrl + "reg_User/searchCustomer/?cus_Id="+ search,
+            method: "GET",
+            contentType: "application/json",
+            dataType: "json",
+            success: function (res) {
+                console.log(res);
+                $("#user_Id").val(res.user_Id);
+                $("#firstName").val(res.name.firstName);
+                $("#lastName").val(res.name.lastName);
+                $("#contact_No").val(res.contact_No);
+                $("#address").val(res.address);
+                $("#email").val(res.email);
+                $("#nic").val(res.nic);
+                $("#license_No").val(res.license_No);
+                $("#nic_Img").prop(res.nic_Img);
+                $("#license_Img").prop(res.license_Img);
+                $("#driverAvailability").val(res.driverAvailability);
+                $("#role_Type").val(res.user.role_Type);
+                $("#user_Name").val(res.user.user_Name);
+                $("#password").val(res.user.password);
+                let row = "<tr><td>" + res.user_Id + "</td><td>" + res.name.firstName + "</td><td>" + res.name.lastName + "</td><td>" + res.contact_No + "</td><td>" + res.address + "</td><td>" + res.email + "</td><td>" + res.nic + "</td><td>" + res.license_No + "</td><td>" + res.user.role_Type + "</td><td>" + res.user.user_Name + "</td><td>" + res.user.password + "</td></tr>";
+                $("#customerTable").append(row);
+            },
+            error: function (error) {
+                loadAllRegUsers();
+                let message = JSON.parse(error.responseText).message;
+                emptyMassage(message);
+            }
+        })
+    }
+
+});
+

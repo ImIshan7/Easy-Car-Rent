@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,28 +178,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="4955000" />
-    </task>
-    <task id="LOCAL-00051" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955405166</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955405166</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955427935</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955427935</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955456783</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955456783</updated>
+      <workItem from="1698038910954" duration="5339000" />
     </task>
     <task id="LOCAL-00054" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
       <created>1697955489184</created>
@@ -525,14 +502,34 @@
       <option name="project" value="LOCAL" />
       <updated>1698043075100</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Content Updated &quot;Customer JS&quot;">
+      <created>1698043909973</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1698043909973</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Content Updated &quot;Customer JS&quot;">
+      <created>1698043978291</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1698043978291</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Content Updated &quot;Customer JS&quot;">
+      <created>1698044068571</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1698044068571</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Some Segment" />
     <MESSAGE value="Added Some Segment In Frond End" />
     <MESSAGE value="Complete Login Form In Front End" />
     <MESSAGE value="Start Customer manage in Front End" />
@@ -557,6 +554,7 @@
     <MESSAGE value="Content Updated &quot;Main Page&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Index JS&quot;" />
     <MESSAGE value="Content Updated &quot;LoginForm JS&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;LoginForm JS&quot;" />
+    <MESSAGE value="Content Updated &quot;Customer JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Customer JS&quot;" />
   </component>
 </project>
