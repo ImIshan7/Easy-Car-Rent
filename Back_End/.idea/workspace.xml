@@ -10,10 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/advisor/AppWideExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/advisor/AppWideExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/util/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/util/CurrentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/embeded/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/CustomerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,14 +184,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="9753000" />
-    </task>
-    <task id="LOCAL-00078" summary="Content Updated &quot;Main Page - Contact&quot;">
-      <created>1697959692740</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1697959692740</updated>
+      <workItem from="1698038910954" duration="10736000" />
     </task>
     <task id="LOCAL-00079" summary="Content Updated &quot;Main Page - Footer&quot;">
       <created>1697960356996</created>
@@ -527,14 +522,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698050830903</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Content Updated &quot;Add Advisor &quot;">
+      <created>1698051160324</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1698051160324</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Driver Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Payment_Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Admin Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Income Details Manage&quot;" />
@@ -559,6 +560,7 @@
     <MESSAGE value="Content Updated &quot;Add Web RootConfig &quot;" />
     <MESSAGE value="Content Updated &quot;Add Web AppConfig &quot;" />
     <MESSAGE value="Content Updated &quot;Add WebAppInitializer &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add WebAppInitializer &quot;" />
+    <MESSAGE value="Content Updated &quot;Add Advisor &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add Advisor &quot;" />
   </component>
 </project>
