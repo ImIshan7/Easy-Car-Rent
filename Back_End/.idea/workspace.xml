@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,21 +176,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="6546000" />
-    </task>
-    <task id="LOCAL-00058" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955620872</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955620872</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
-      <created>1697955718903</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1697955718903</updated>
+      <workItem from="1698038910954" duration="6890000" />
     </task>
     <task id="LOCAL-00060" summary="Content Updated &quot;Main Page - Reg_Customer&quot;">
       <created>1697955764735</created>
@@ -523,14 +507,27 @@
       <option name="project" value="LOCAL" />
       <updated>1698044748687</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Content Updated &quot;Car JS&quot;">
+      <created>1698047857165</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1698047857166</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Content Updated &quot;Car JS&quot;">
+      <created>1698047908130</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1698047908130</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Some Segment In Frond End" />
     <MESSAGE value="Complete Login Form In Front End" />
     <MESSAGE value="Start Customer manage in Front End" />
     <MESSAGE value="Content Updated &quot;Customer Request&quot;" />
@@ -555,6 +552,7 @@
     <MESSAGE value="Content Updated &quot;Main Page - Index JS&quot;" />
     <MESSAGE value="Content Updated &quot;LoginForm JS&quot;" />
     <MESSAGE value="Content Updated &quot;Customer JS&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Customer JS&quot;" />
+    <MESSAGE value="Content Updated &quot;Car JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Car JS&quot;" />
   </component>
 </project>
