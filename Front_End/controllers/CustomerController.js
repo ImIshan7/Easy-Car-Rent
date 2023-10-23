@@ -226,3 +226,17 @@ $("#btnDeleteCustomer").click(function () {
         }
     });
 });
+
+
+function setButtonState(value){
+
+    if (value > 0) {
+        $("#btnUpdateCustomer").attr('disabled', true);
+        $("#btnDeleteCustomer").attr('disabled', true);
+        $("#btnSaveCustomer").attr('disabled', true);
+    }else {
+        $("#btnUpdateCustomer").attr('disabled', false);
+        $("#btnDeleteCustomer").attr('disabled', false);
+        $("#btnSaveCustomer").attr('disabled', false);
+    }
+}
