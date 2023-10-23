@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/WebAppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,21 +178,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="8908000" />
-    </task>
-    <task id="LOCAL-00074" summary="Content Updated &quot;Main Page - Contact&quot;">
-      <created>1697958738217</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1697958738217</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Content Updated &quot;Main Page - Contact&quot;">
-      <created>1697958841069</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1697958841069</updated>
+      <workItem from="1698038910954" duration="9371000" />
     </task>
     <task id="LOCAL-00076" summary="Content Updated &quot;Main Page - Contact&quot;">
       <created>1697959459251</created>
@@ -523,15 +509,27 @@
       <option name="project" value="LOCAL" />
       <updated>1698049136504</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Content Updated &quot;Add JPAConfig&quot;">
+      <created>1698050313773</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1698050313773</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Content Updated &quot;Add Web RootConfig &quot;">
+      <created>1698050588057</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1698050588057</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start Customer manage in Front End" />
-    <MESSAGE value="Content Updated &quot;Customer Request&quot;" />
     <MESSAGE value="Content Updated &quot;Customer Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Car Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Driver Manage&quot;" />
@@ -555,6 +553,8 @@
     <MESSAGE value="Content Updated &quot;Customer JS&quot;" />
     <MESSAGE value="Content Updated &quot;Car JS&quot;" />
     <MESSAGE value="Content Updated &quot;Driver JS&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Driver JS&quot;" />
+    <MESSAGE value="Content Updated &quot;Add JPAConfig&quot;" />
+    <MESSAGE value="Content Updated &quot;Add Web RootConfig &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add Web RootConfig &quot;" />
   </component>
 </project>
