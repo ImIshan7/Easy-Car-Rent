@@ -26,3 +26,31 @@ $("#btnSaveDriver").click(function () {
         }
     });
 });
+
+
+   /*Driver ID Generator*/
+
+function generateDriverID() {
+    $("#user_Id").val("DRI-001");
+    $.ajax({
+        url: driverBaseUrl + "driver/driverIdGenerate",
+        method: "GET",
+        contentType: "application/json",
+        dataType: "json",
+        success: function (resp) {
+            let id = resp.value;
+            console.log("id" + id);
+            let tempId = parseInt(id.split("-")[1]);
+            tempId = tempId + 1;
+            if (tempId <= 9) {
+                $("#user_Id").val("DRI-00" + tempId);
+            } else if (tempId <= 99) {
+                $("#user_Id").val("DRI-0" + tempId);
+            } else {
+                $("#user_Id").val("DRI-" + tempId);
+            }
+        },
+        error: function (ob, statusText, error) {
+        }
+    });
+}
