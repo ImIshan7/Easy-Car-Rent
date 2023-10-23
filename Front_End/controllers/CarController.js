@@ -1,4 +1,4 @@
-let baseUrlLogin ="http://localhost:8087/Easy_Car_Rent_war/";
+let carBaseUrl ="http://localhost:8087/Easy_Car_Rent_war/";
 
 loadAllCars();
 
