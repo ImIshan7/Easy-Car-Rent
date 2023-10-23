@@ -9,183 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;Add Reg_UserController&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/embeded/Rate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/AvailabilityType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/FuelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RequestType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RoleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/TransmissionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/embeded/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/config/JPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/AdminDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/AdminDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent_Details.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent_Details_PK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetail_PK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/advisor/AppWideExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/config/JPAConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/config/WebAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/config/WebRootConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/CarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/DriverController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/RentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/ReserveController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/ScheduleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/AdminDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/CarDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/CustomDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/CustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/DriverDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/PaymentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/RentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/RentDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/ReserveDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/ScheduleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Rent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Rent_Details.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/entity/Rent_Details_PK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/AdminRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/CarRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/CustomerRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/DriverRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/PaymentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/RentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/ReserveRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/CarService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/DriverService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/RentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/ReserveService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/DriverServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/RentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/ReserveServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/util/CurrentUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/util/ResponseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/classes/properties.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.12.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.6.15.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.15.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.15.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.15.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.15.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.4.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/modelmapper-3.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.32.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.7.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.7.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Easy_Car_Rent-1.0-SNAPSHOT/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/advisor/AppWideExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/config/JPAConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/config/WebAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/config/WebRootConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/CarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/DriverController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/PaymentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/RentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/ReserveController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/ScheduleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/AdminDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/CarDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/CustomDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/CustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/DriverDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/PaymentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/RentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/RentDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/ReserveDetailsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/ScheduleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Rent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Rent_Details.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/entity/Rent_Details_PK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/AdminRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/CarRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/CustomerRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/DriverRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/PaymentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/RentRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/ReserveRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/CarService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/DriverService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/RentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/ReserveService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/DriverServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/RentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/ReserveServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/util/CurrentUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/util/ResponseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetail_PK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetail_PK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,6 +72,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.1640625",
     "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.to.source": "true",
     "spring.configuration.checksum": "1f73e13d757c981e460df4fc7c30553c"
   },
   "keyToStringList": {
@@ -361,14 +193,7 @@
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
       <workItem from="1698038910954" duration="16784000" />
-      <workItem from="1698058385110" duration="3972000" />
-    </task>
-    <task id="LOCAL-00086" summary="Content Updated &quot;Main Page - Footer&quot;">
-      <created>1697960889887</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1697960889887</updated>
+      <workItem from="1698058385110" duration="5594000" />
     </task>
     <task id="LOCAL-00087" summary="Content Updated &quot;Main Page&quot;">
       <created>1697962118134</created>
@@ -706,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698055498537</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Content Updated &quot;Add Reg_UserController&quot;">
+      <created>1698062392726</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1698062392727</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

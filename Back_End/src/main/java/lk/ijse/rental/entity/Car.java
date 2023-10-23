@@ -1,6 +1,7 @@
-/*
+
 package lk.ijse.rental.entity;
 
+import lk.ijse.rental.embeded.Image;
 import lk.ijse.rental.embeded.Rate;
 import lk.ijse.rental.enums.AvailabilityType;
 import lk.ijse.rental.enums.CarType;
@@ -12,11 +13,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.*;
-import java.awt.*;
+
+
 
 @Entity
 @Data
 @NoArgsConstructor
+
 @AllArgsConstructor
 @ToString
 public class Car {
@@ -43,4 +46,3 @@ public class Car {
     private AvailabilityType vehicleAvailabilityType;
 
 }
-*/

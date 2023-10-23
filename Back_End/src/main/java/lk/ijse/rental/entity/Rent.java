@@ -1,4 +1,3 @@
-/*
 package lk.ijse.rental.entity;
 
 import lk.ijse.rental.enums.RentRequest;
@@ -38,4 +37,4 @@ public class Rent {
     @OneToMany(mappedBy = "rent", cascade = CascadeType.ALL)
     private List<RentDetails> rentDetails;
 
-}*/
+}

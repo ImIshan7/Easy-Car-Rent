@@ -1,4 +1,3 @@
-/*
 package lk.ijse.rental.entity;
 
 import lk.ijse.rental.enums.PaymentType;
@@ -29,4 +28,4 @@ public class Payment {
     private Double rentFee;
     private Double driverFee;
     private Double total;
-}*/
+}

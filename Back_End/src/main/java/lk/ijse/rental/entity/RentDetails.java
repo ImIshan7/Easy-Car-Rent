@@ -1,4 +1,3 @@
-/*
 package lk.ijse.rental.entity;
 
 import lombok.AllArgsConstructor;
@@ -33,4 +32,4 @@ public class RentDetails {
     @ManyToOne
     @JoinColumn(name = "driverID",referencedColumnName = "user_Id",insertable = false,updatable = false)
     private Driver driver;
-}*/
+}
