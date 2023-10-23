@@ -154,3 +154,41 @@ $("#search_Id").on("keypress", function (event) {
 
 });
 
+/*Load Text Fields*/
+
+function blindClickEventsD() {
+    $("#driverTable>tr").on("click", function () {
+        let user_Id = $(this).children().eq(0).text();
+        let firstName = $(this).children().eq(1).text();
+        let lastName = $(this).children().eq(2).text();
+        let contact_No = $(this).children().eq(3).text();
+        let address = $(this).children().eq(4).text();
+        let email = $(this).children().eq(5).text();
+        let nic_No = $(this).children().eq(6).text();
+        let license_No = $(this).children().eq(7).text();
+        let driverAvailability = $(this).children().eq(8).text();
+        let role_Type = $(this).children().eq(9).text();
+        let user_Name = $(this).children().eq(10).text();
+        let password = $(this).children().eq(11).text();
+
+
+        console.log(user_Id, firstName, lastName, contact_No, address, email, nic_No, license_No, driverAvailability, role_Type, user_Name,password);
+
+        $("#user_Id").val(user_Id);
+        $("#firstName").val(firstName);
+        $("#lastName").val(lastName);
+        $("#contact_No").val(contact_No);
+        $("#address").val(address);
+        $("#email").val(email);
+        $("#nic_No").val(nic_No);
+        $("#license_No").val(license_No);
+        $("#driverAvailability").val(driverAvailability);
+        $("#role_Type").val(role_Type);
+        $("#user_Name").val(user_Name);
+        $("#password").val(password);
+    });
+    $("#btnSaveDriver").attr('disabled', true);
+}
+
+
+
