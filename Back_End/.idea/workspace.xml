@@ -10,12 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/embeded/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/AvailabilityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/enums/TransmissionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/CustomDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/Reg_UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/Reg_UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/Reg_UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/Reg_UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/Reg_UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/Reg_UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,7 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,21 +67,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ijse64/front end/Front_End&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f396fa4fe2462f7195e58e32f9682886&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/ijse64/front end/Front_End",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f396fa4fe2462f7195e58e32f9682886"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -184,21 +192,7 @@
       <workItem from="1697636079953" duration="8840000" />
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
-      <workItem from="1698038910954" duration="10736000" />
-    </task>
-    <task id="LOCAL-00079" summary="Content Updated &quot;Main Page - Footer&quot;">
-      <created>1697960356996</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1697960356996</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Content Updated &quot;Main Page - Footer&quot;">
-      <created>1697960409486</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1697960409486</updated>
+      <workItem from="1698038910954" duration="12646000" />
     </task>
     <task id="LOCAL-00081" summary="Content Updated &quot;Main Page - Footer&quot;">
       <created>1697960457962</created>
@@ -529,15 +523,27 @@
       <option name="project" value="LOCAL" />
       <updated>1698051160324</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Content Updated &quot;Add Customer Entity and DTO &quot;">
+      <created>1698052150085</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1698052150085</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Content Updated &quot;Add Reg_UserService &quot;">
+      <created>1698053578472</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1698053578472</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Payment_Details Manage&quot;" />
-    <MESSAGE value="Content Updated &quot;Admin Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Income Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Rent Details Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Customer Dashboard Manage&quot;" />
@@ -561,6 +567,8 @@
     <MESSAGE value="Content Updated &quot;Add Web AppConfig &quot;" />
     <MESSAGE value="Content Updated &quot;Add WebAppInitializer &quot;" />
     <MESSAGE value="Content Updated &quot;Add Advisor &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add Advisor &quot;" />
+    <MESSAGE value="Content Updated &quot;Add Customer Entity and DTO &quot;" />
+    <MESSAGE value="Content Updated &quot;Add Reg_UserService &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add Reg_UserService &quot;" />
   </component>
 </project>

@@ -18,5 +18,4 @@ public interface Reg_UserService {
     CustomDTO getSumUser();
     Reg_UserDTO availableUser(String userName);
 
-
 }
