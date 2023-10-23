@@ -1,4 +1,4 @@
-/*
+
 
 package lk.ijse.rental;
 
@@ -23,4 +23,4 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
     }
 }
 
-*/
+
