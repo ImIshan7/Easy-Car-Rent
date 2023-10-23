@@ -190,5 +190,25 @@ function blindClickEventsD() {
     $("#btnSaveDriver").attr('disabled', true);
 }
 
+/*Update Driver*/
 
+$("#btnUpdateDriver").click(function () {
+    let formData = new FormData($("#driverForm")[0]);
+    console.log(formData);
+    $.ajax({
+        url: driverBaseUrl + "driver/update",
+        method: "post",
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function (res) {
+            console.log(res)
+            saveUpdateAlert("Driver", res.message);
+            loadAllDrivers();
+        },
+        error: function (error) {
+            unSuccessUpdateAlert("Driver", JSON.parse(error.responseText).message);
+        }
+    });
+});
 
