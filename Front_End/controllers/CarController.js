@@ -214,3 +214,41 @@ function blindClickEventsC() {
     });
     $("#btnSaveCar").attr('disabled', true);
 }
+
+/*Update Car*/
+
+$("#btnUpdateCar").click(function () {
+    let formData = new FormData($("#carForm")[0]);
+    console.log(formData);
+    $.ajax({
+        url: carBaseUrl + "car/update",
+        method: "post",
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function (res) {
+            console.log(res)
+            saveUpdateAlert("Car", res.message);
+            loadAllCars();
+        },
+        error: function (error) {
+            unSuccessUpdateAlert("Car", JSON.parse(error.responseText).message);
+        }
+    });
+});
+
+
+/*Delete Car*/
+
+$("#btnDeleteCar").click(function () {
+    let id = $("#car_Id").val();
+    $.ajax({
+        url: carBaseUrl + "car?id=" + id + "", method: "delete", dataType: "json", success: function (resp) {
+            saveUpdateAlert("Car", resp.message);
+            loadAllCars();
+        }, error: function (error) {
+            let message = JSON.parse(error.responseText).message;
+            unSuccessUpdateAlert("Car", message);
+        }
+    });
+});
