@@ -1,13 +1,19 @@
 package lk.ijse.rental.entity;
 
 import lk.ijse.rental.embeded.Name;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Embedded;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
-public class Customer {
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Reg_User {
 
     @Id
     private String user_Id;

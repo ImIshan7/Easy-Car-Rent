@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class CustomerDTO {
+public class Reg_UserDTO {
 
     private String user_Id;
     private Name name;

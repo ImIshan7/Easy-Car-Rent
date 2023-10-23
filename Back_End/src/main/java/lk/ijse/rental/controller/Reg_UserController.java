@@ -1,4 +1,4 @@
 package lk.ijse.rental.controller;
 
-public class CustomerController {
+public class Reg_UserController {
 }
