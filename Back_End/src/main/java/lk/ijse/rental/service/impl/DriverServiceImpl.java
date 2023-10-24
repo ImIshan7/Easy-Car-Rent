@@ -7,6 +7,7 @@ import lk.ijse.rental.entity.User;
 import lk.ijse.rental.repo.DriverRepo;
 import lk.ijse.rental.service.DriverService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -93,36 +94,42 @@ public class DriverServiceImpl implements DriverService {
 
     @Override
     public ArrayList<DriverDTO> getAllDriver() {
-        return null;
+
+        return mapper.map(repo.findAll(), new TypeToken<ArrayList<Driver>>() {
+        }.getType());
     }
 
     @Override
     public ArrayList<DriverDTO> getAllAvalabileDriver() {
-        return null;
+        return mapper.map(repo.availableDrivers(), new TypeToken<ArrayList<Driver>>() {
+        }.getType());
     }
 
     @Override
     public CustomDTO userIdGenerate() {
-        return null;
+        return new CustomDTO(repo.getLastIndex());
     }
 
     @Override
     public CustomDTO getSumAvailableDriver() {
-        return null;
+        return new CustomDTO(repo.getSumAvailableDriver());
     }
 
     @Override
     public CustomDTO getSumUnavailableDriver() {
-        return null;
+        return new CustomDTO(repo.getSumUnavailableDriver());
     }
 
     @Override
     public Driver searchDriverId(String id) {
-        return null;
+        if (!repo.existsById(id)) {
+            throw new RuntimeException("Wrong ID. Please enter Valid id..!");
+        }
+        return mapper.map(repo.findById(id).get(), Driver.class);
     }
 
     @Override
     public CustomDTO getSumDriver() {
-        return null;
+        return new CustomDTO(repo.getSumDriver());
     }
 }
