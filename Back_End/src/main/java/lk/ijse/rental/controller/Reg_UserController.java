@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/customer")
+@RequestMapping("/reg_User")
 
 public class Reg_UserController {
 

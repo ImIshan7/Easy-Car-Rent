@@ -10,7 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/DriverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/DashBoardController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/models/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/models/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/Reg_UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/Reg_UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/Reg_UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/Reg_UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/Reg_UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/Reg_UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/DriverController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/DriverController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +41,9 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +52,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -54,27 +73,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/EDUCATIONAL C/2nd Semeseter Final Project/Easy Car Rental System/Back_End&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1640625&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1f73e13d757c981e460df4fc7c30553c&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/EDUCATIONAL C/2nd Semeseter Final Project/Easy Car Rental System/Front_End/models",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.1640625",
+    "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.to.source": "true",
+    "spring.configuration.checksum": "1f73e13d757c981e460df4fc7c30553c"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EDUCATIONAL C\2nd Semeseter Final Project\Easy Car Rental System\Front_End\models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -188,63 +212,8 @@
       <workItem from="1697950935961" duration="18177000" />
       <workItem from="1698038910954" duration="16784000" />
       <workItem from="1698058385110" duration="5661000" />
-      <workItem from="1698131142003" duration="1495000" />
-    </task>
-    <task id="LOCAL-00098" summary="Content Updated &quot;LoginForm JS&quot;">
-      <created>1698043041896</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1698043041896</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Content Updated &quot;LoginForm JS&quot;">
-      <created>1698043075100</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1698043075100</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698043909973</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1698043909973</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698043978291</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1698043978291</updated>
-    </task>
-    <task id="LOCAL-00102" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698044068571</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1698044068571</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698044287368</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1698044287368</updated>
-    </task>
-    <task id="LOCAL-00104" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698044377717</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1698044377717</updated>
-    </task>
-    <task id="LOCAL-00105" summary="Content Updated &quot;Customer JS&quot;">
-      <created>1698044562316</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1698044562316</updated>
+      <workItem from="1698131142003" duration="6697000" />
+      <workItem from="1698138240486" duration="6856000" />
     </task>
     <task id="LOCAL-00106" summary="Content Updated &quot;Customer JS&quot;">
       <created>1698044748687</created>
@@ -533,14 +502,69 @@
       <option name="project" value="LOCAL" />
       <updated>1698132531600</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132650996</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132650996</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132677739</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132677739</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132699397</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132699397</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132722611</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132722611</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132751530</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132751530</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132783261</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132783263</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132841927</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132841927</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Content Updated &quot;DriverController&quot;">
+      <created>1698132903031</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1698132903031</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Gallery&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Contact&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Footer&quot;" />
@@ -565,6 +589,7 @@
     <MESSAGE value="Content Updated &quot;Implement Method DriverServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;DriverServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;DriverRepo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;DriverRepo&quot;" />
+    <MESSAGE value="Content Updated &quot;DriverController&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;DriverController&quot;" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-let baseUrlLogin ="http://localhost:8087/Easy_Car_Rent_war/";
+let baseUrlLogin ="http://localhost:8087/Back_End_war/";
 
 
 /*Load All Method*/

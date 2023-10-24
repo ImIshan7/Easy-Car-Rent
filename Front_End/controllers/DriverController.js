@@ -1,7 +1,6 @@
-let driverBaseUrl ="http://localhost:8087/Easy_Car_Rent_war/";
+let driverBaseUrl ="http://localhost:8087/Back_End_war/";
 
 loadAllDrivers();
-
 $("#btnSaveDriver").attr('disabled', true);
 $("#btnUpdateDriver").attr('disabled', true);
 $("#btnDeleteDriver").attr('disabled', true);
@@ -226,4 +225,137 @@ $("#btnDeleteDriver").click(function () {
         }
     });
 });
+
+/*Validation*/
+
+$("#firstName").focus();
+const regExFirstName = /^[A-z ]{3,20}$/;
+const regExLastName = /^[A-z ]{3,20}$/;
+const regExContactNum = /^(07(0|1|2|4|5|6|7|8)[0-9]{7})$/;
+const regExCusAddress = /^[A-z0-9/ ]{4,30}$/;
+const regExEmailCusAddress = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const regExNIC = /^([0-9]{12}|[0-9V]{10})$/;
+const regExDrivingNIC = /^[A-Z0-9-]+$/;
+const regExUserName = /^[A-z0-9/ ]{4,30}$/;
+const regExPassword = /^([A-Z a-z]{5,15}[0-9]{1,10})$/;
+
+let driverValidations = [];
+driverValidations.push({
+    reg: regExFirstName, field: $('#firstName'), error: 'Driver First Name Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExLastName, field: $('#lastName'), error: 'Driver Last Name Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExContactNum, field: $('#contact_No'), error: 'Driver Contact Number Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExCusAddress, field: $('#address'), error: 'Driver Address Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExEmailCusAddress, field: $('#email'), error: 'Driver Email Address Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExNIC, field: $('#nic_No'), error: 'Driver NIC Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExDrivingNIC, field: $('#license_No'), error: 'Driver Driving License Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExUserName, field: $('#user_Name'), error: 'Driver User Name Pattern is Wrong'
+});
+driverValidations.push({
+    reg: regExPassword, field: $('#password'), error: 'Driver Password Pattern is Wrong'
+});
+//disable tab key of all four text fields using grouping selector in CSS
+$("#firstName,#lastName,#contact_No,#address,#email,#nic_No,#license_No,#user_Name,#password").on('keydown', function (event) {
+    if (event.key === "Tab") {
+        event.preventDefault();
+    }
+});
+
+$("#firstName,#lastName,#contact_No,#address,#email,#nic_No,#license_No,#user_Name,#password").on('keyup', function (event) {
+    checkValidity(driverValidations);
+});
+
+$("#firstName,#lastName,#contact_No,#address,#email,#nic_No,#license_No,#user_Name,#password").on('blur', function (event) {
+    checkValidity(driverValidations);
+});
+
+$("#firstName").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExFirstName, $("#firstName"))) {
+        $("#lastName").focus();
+    } else {
+        focusText($("#firstName"));
+    }
+});
+
+$("#lastName").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExLastName, $("#lastName"))) {
+        focusText($("#contact_No"));
+    }
+});
+
+$("#contact_No").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExContactNum, $("#contact_No"))) {
+        focusText($("#address"));
+    }
+});
+
+$("#address").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExCusAddress, $("#address"))) {
+        if (event.which === 13) {
+            focusText($("#email"));
+        }
+    }
+});
+
+$("#email").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExEmailCusAddress, $("#email"))) {
+        focusText($("#nic_No"));
+    }
+});
+
+$("#nic_No").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExNIC, $("#nic_No"))) {
+        focusText($("#license_No"));
+    }
+});
+
+$("#license_No").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExDrivingNIC, $("#license_No"))) {
+        if (event.which === 13) {
+            focusText($("#user_Name"));
+        }
+    }
+});
+
+$("#user_Name").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExUserName, $("#user_Name"))) {
+        if (event.which === 13) {
+            focusText($("#password"));
+        }
+    }
+});
+
+$("#password").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExPassword, $("#password"))) {
+        if (event.which === 13) {
+            $('#btnSaveDriver').focus();
+        }
+    }
+});
+
+
+function setButtonState(value) {
+    if (value > 0) {
+        $("#btnSaveDriver").attr('disabled', true);
+        $("#btnUpdateDriver").attr('disabled', true);
+        $("#btnDeleteDriver").attr('disabled', true);
+    } else {
+        $("#btnSaveDriver").attr('disabled', false);
+        $("#btnUpdateDriver").attr('disabled', false);
+        $("#btnDeleteDriver").attr('disabled', false);
+    }
+}
 

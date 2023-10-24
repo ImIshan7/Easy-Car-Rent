@@ -1,16 +1,18 @@
 package lk.ijse.rental.entity;
 
+
 import lk.ijse.rental.enums.RoleType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+/**
+ * @author : Nimesh Piyumantha
+ * @since : 0.1.0
+ **/
 @Entity
 @Data
 @NoArgsConstructor
