@@ -41,4 +41,10 @@ public class DriverController {
         service.deleteDriver(id);
         return new ResponseUtil("OK", "Successfully Deleted. :" + id, null);
     }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/loadAllDrivers")
+    public ResponseUtil getAllDriver() {
+        return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllDriver());
+    }
 }
