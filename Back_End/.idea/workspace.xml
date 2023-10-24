@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/embeded/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetail_PK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetail_PK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/entity/RentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/DriverDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/DriverDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/EDUCATIONAL C/2nd Semeseter Final Project/Easy Car Rental System/Back_End",
-    "list.type.of.created.stylesheet": "CSS",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.1640625",
-    "project.structure.side.proportion": "0.2",
-    "service.view.auto.scroll.to.source": "true",
-    "spring.configuration.checksum": "1f73e13d757c981e460df4fc7c30553c"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/EDUCATIONAL C/2nd Semeseter Final Project/Easy Car Rental System/Back_End&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1640625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1f73e13d757c981e460df4fc7c30553c&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -193,14 +191,8 @@
       <workItem from="1697778404121" duration="16028000" />
       <workItem from="1697950935961" duration="18177000" />
       <workItem from="1698038910954" duration="16784000" />
-      <workItem from="1698058385110" duration="5594000" />
-    </task>
-    <task id="LOCAL-00087" summary="Content Updated &quot;Main Page&quot;">
-      <created>1697962118134</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1697962118134</updated>
+      <workItem from="1698058385110" duration="5661000" />
+      <workItem from="1698131142003" duration="419000" />
     </task>
     <task id="LOCAL-00088" summary="Content Updated &quot;Main Page&quot;">
       <created>1697962198263</created>
@@ -538,14 +530,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698062392727</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Content Updated &quot;Fix the Bug in the Entity&quot;">
+      <created>1698064041465</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1698064041465</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Customer Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Driver Dashboard Manage&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - ABOUT&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Cars&quot;" />
@@ -570,6 +568,7 @@
     <MESSAGE value="Content Updated &quot;Add Reg_UserService &quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserController&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Add Reg_UserController&quot;" />
+    <MESSAGE value="Content Updated &quot;Fix the Bug in the Entity&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Fix the Bug in the Entity&quot;" />
   </component>
 </project>
