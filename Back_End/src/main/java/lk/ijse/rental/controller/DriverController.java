@@ -47,4 +47,10 @@ public class DriverController {
     public ResponseUtil getAllDriver() {
         return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllDriver());
     }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/loadAvalabilityDrivers")
+    public ResponseUtil getAllAvalabileDriver() {
+        return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllAvalabileDriver());
+    }
 }
