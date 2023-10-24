@@ -34,4 +34,11 @@ public class DriverController {
         service.updateDriver(driverDTO);
         return new ResponseUtil("OK", "Successfully Updated. :" + driverDTO.getUser_Id(), null);
     }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @DeleteMapping(params = {"id"})
+    public ResponseUtil deleteDriver(@RequestParam String id) {
+        service.deleteDriver(id);
+        return new ResponseUtil("OK", "Successfully Deleted. :" + id, null);
+    }
 }
