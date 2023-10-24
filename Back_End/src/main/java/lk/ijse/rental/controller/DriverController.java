@@ -73,4 +73,16 @@ public class DriverController {
         return service.getSumDriver();
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/driverAvailableCount")
+    public @ResponseBody CustomDTO getSumAvailableDriver() {
+        return service.getSumAvailableDriver();
+    }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/driverUnavailableCount")
+    public @ResponseBody CustomDTO getSumUnavailableDriver() {
+        return service.getSumUnavailableDriver();
+    }
+
 }
