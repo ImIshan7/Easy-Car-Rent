@@ -1,5 +1,6 @@
 package lk.ijse.rental.controller;
 
+import lk.ijse.rental.dto.CustomDTO;
 import lk.ijse.rental.dto.DriverDTO;
 import lk.ijse.rental.dto.UserDTO;
 import lk.ijse.rental.embeded.Name;
@@ -52,5 +53,11 @@ public class DriverController {
     @GetMapping(path = "/loadAvalabilityDrivers")
     public ResponseUtil getAllAvalabileDriver() {
         return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllAvalabileDriver());
+    }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/driverIdGenerate")
+    public @ResponseBody CustomDTO customerIdGenerate() {
+        return service.userIdGenerate();
     }
 }
