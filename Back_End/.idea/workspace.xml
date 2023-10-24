@@ -10,11 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/DriverDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/DriverDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/DriverRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/DriverRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/service/impl/DriverServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,28 +189,7 @@
       <workItem from="1697950935961" duration="18177000" />
       <workItem from="1698038910954" duration="16784000" />
       <workItem from="1698058385110" duration="5661000" />
-      <workItem from="1698131142003" duration="419000" />
-    </task>
-    <task id="LOCAL-00088" summary="Content Updated &quot;Main Page&quot;">
-      <created>1697962198263</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1697962198263</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Content Updated &quot;Main Page&quot;">
-      <created>1697962424863</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1697962424863</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Content Updated &quot;Main Page&quot;">
-      <created>1697967790900</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1697967790900</updated>
+      <workItem from="1698131142003" duration="791000" />
     </task>
     <task id="LOCAL-00091" summary="Content Updated &quot;Main Page - Index JS&quot;">
       <created>1697983551621</created>
@@ -537,16 +513,34 @@
       <option name="project" value="LOCAL" />
       <updated>1698064041465</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Content Updated &quot;Add Driver DTO&quot;">
+      <created>1698131590984</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1698131590984</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Content Updated &quot;Add Driver Service&quot;">
+      <created>1698131679513</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1698131679513</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Content Updated &quot;Implement Method DriverServiceImpl&quot;">
+      <created>1698131752482</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1698131752482</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Driver Dashboard Manage&quot;" />
-    <MESSAGE value="Content Updated &quot;Main Page - ABOUT&quot;" />
-    <MESSAGE value="Content Updated &quot;Main Page - Cars&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Counter&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - FeedBack&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Reg_Customer&quot;" />
@@ -569,6 +563,9 @@
     <MESSAGE value="Content Updated &quot;Add Reg_UserServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserController&quot;" />
     <MESSAGE value="Content Updated &quot;Fix the Bug in the Entity&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Fix the Bug in the Entity&quot;" />
+    <MESSAGE value="Content Updated &quot;Add Driver DTO&quot;" />
+    <MESSAGE value="Content Updated &quot;Add Driver Service&quot;" />
+    <MESSAGE value="Content Updated &quot;Implement Method DriverServiceImpl&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Implement Method DriverServiceImpl&quot;" />
   </component>
 </project>
