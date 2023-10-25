@@ -252,3 +252,175 @@ $("#btnDeleteCar").click(function () {
         }
     });
 });
+
+/*Validation*/
+
+$("#name").focus();
+const regExBrand = /^[A-z ]{3,20}$/;
+const regExModel = /^[A-z 0-9]{3,20}$/;
+const regExType = /^[A-z ]{3,20}$/;
+const regExNoPassengers = /^[0-9 ]{1,2}$/;
+const regExTransmissionType = /^[A-z ]{3,20}$/;
+const regExFuelType = /^[A-z ]{3,20}$/;
+const regExDailyRate = /^[0-9 ]{1,20}$/;
+const regExMonthlyRate = /^[0-9 ]{1,20}$/;
+const regExKM = /^[0-9 ]{1,4}$/;
+const regExRegNumber = /^[A-Z]{3}-?\d{3}|^\d{3}-?[A-Z]{3}$/;
+const regExMileage = /^[0-9 ]{1,4}$/;
+const regExColor = /^[A-z ]{3,20}$/;
+
+let carValidations = [];
+carValidations.push({
+    reg: regExBrand, field: $('#name'), error: 'Car Brand Name Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExModel, field: $('#brand'), error: 'Car Model Name Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExType, field: $('#type'), error: 'Car Type Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExNoPassengers, field: $('#number_Of_Passengers'), error: 'Car Passengers Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExTransmissionType, field: $('#transmission_Type'), error: 'Car Transmission Type Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExFuelType, field: $('#fuel_Type'), error: 'Car Fuel Type is Wrong'
+});
+carValidations.push({
+    reg: regExDailyRate, field: $('#daily_Rate'), error: 'Car Daily Rate Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExMonthlyRate, field: $('#monthly_Rate'), error: 'Car Monthly Rate Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExKM, field: $('#price_Extra_KM'), error: 'Car Price Extra KM Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExRegNumber,
+    field: $('#registration_Number'),
+    error: 'Car Register Number Pattern is Wrong (CDF-001/123-DFG)'
+});
+carValidations.push({
+    reg: regExMileage, field: $('#free_Mileage'), error: 'Car Free Mileage Pattern is Wrong'
+});
+carValidations.push({
+    reg: regExColor, field: $('#color'), error: 'Car Color Pattern is Wrong'
+});
+
+//disable tab key of all four text fields using grouping selector in CSS
+$("#name,#brand,#type,#number_Of_Passengers,#transmission_Type,#fuel_Type,#daily_Rate,#monthly_Rate,#price_Extra_KM,#registration_Number,#free_Mileage,#color").on('keydown', function (event) {
+    if (event.key === "Tab") {
+        event.preventDefault();
+    }
+});
+
+$("#name,#brand,#type,#number_Of_Passengers,#transmission_Type,#fuel_Type,#daily_Rate,#monthly_Rate,#price_Extra_KM,#registration_Number,#free_Mileage,#color").on('keyup', function (event) {
+    checkValidity(carValidations);
+});
+
+$("#name,#brand,#type,#number_Of_Passengers,#transmission_Type,#fuel_Type,#daily_Rate,#monthly_Rate,#price_Extra_KM,#registration_Number,#free_Mileage,#color").on('blur', function (event) {
+    checkValidity(carValidations);
+});
+
+$("#name").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExBrand, $("#name"))) {
+        $("#brand").focus();
+    } else {
+        focusText($("#name"));
+    }
+});
+
+$("#brand").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExModel, $("#brand"))) {
+        focusText($("#type"));
+    }
+});
+
+$("#type").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExType, $("#type"))) {
+        focusText($("#number_Of_Passengers"));
+    }
+});
+
+$("#number_Of_Passengers").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExNoPassengers, $("#number_Of_Passengers"))) {
+        if (event.which === 13) {
+            focusText($("#transmission_Type"));
+        }
+    }
+});
+
+$("#transmission_Type").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExTransmissionType, $("#transmission_Type"))) {
+        focusText($("#fuel_Type"));
+    }
+});
+
+$("#fuel_Type").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExFuelType, $("#fuel_Type"))) {
+        focusText($("#daily_Rate"));
+    }
+});
+
+$("#daily_Rate").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExDailyRate, $("#daily_Rate"))) {
+        if (event.which === 13) {
+            focusText($("#monthly_Rate"));
+        }
+    }
+});
+
+$("#monthly_Rate").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExMonthlyRate, $("#monthly_Rate"))) {
+        if (event.which === 13) {
+            focusText($("#price_Extra_KM"));
+        }
+    }
+});
+
+$("#price_Extra_KM").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExKM, $("#price_Extra_KM"))) {
+        if (event.which === 13) {
+            focusText($("#registration_Number"));
+        }
+    }
+});
+
+$("#registration_Number").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExRegNumber, $("#registration_Number"))) {
+        if (event.which === 13) {
+            focusText($("#free_Mileage"));
+        }
+    }
+});
+
+$("#free_Mileage").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExMileage, $("#free_Mileage"))) {
+        if (event.which === 13) {
+            focusText($("#color"));
+        }
+    }
+});
+
+$("#color").on('keydown', function (event) {
+    if (event.key === "Enter" && check(regExColor, $("#color"))) {
+        if (event.which === 13) {
+            $('#btnSaveCar').focus();
+        }
+    }
+});
+
+
+function setButtonState(value) {
+    if (value > 0) {
+        $("#btnSaveCar").attr('disabled', true);
+        $("#btnUpdateCar").attr('disabled', true);
+        $("#btnDeleteCar").attr('disabled', true);
+    } else {
+        $("#btnSaveCar").attr('disabled', false);
+        $("#btnUpdateCar").attr('disabled', false);
+        $("#btnDeleteCar").attr('disabled', false);
+    }
+}

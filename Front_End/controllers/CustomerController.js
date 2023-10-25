@@ -40,9 +40,9 @@ function generateCustomerID() {
         contentType: "application/json",
         dataType: "json",
         success: function (resp) {
-          /*  let id = resp.value;
-            console.log("id" + id);*/
-            /*let tempId = parseInt(id.split("-")[1]);
+            let id = resp.value;
+            console.log("id" + id);
+            let tempId = parseInt(id.split("-")[1]);
             tempId = tempId + 1;
             if (tempId <= 9) {
                 $("#user_Id").val("C00-00" + tempId);
@@ -50,7 +50,7 @@ function generateCustomerID() {
                 $("#user_Id").val("C00-0" + tempId);
             } else {
                 $("#user_Id").val("C00-" + tempId);
-            }*/
+            }
         },
         error: function (ob, statusText, error) {
         }
