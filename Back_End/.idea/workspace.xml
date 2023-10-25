@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;DriverController&quot;">
-      <change afterPath="$PROJECT_DIR$/../Front_End/models/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/models/validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Front_End/models/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/models/alert.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,35 +195,7 @@
       <workItem from="1698058385110" duration="5661000" />
       <workItem from="1698131142003" duration="6697000" />
       <workItem from="1698138240486" duration="7153000" />
-      <workItem from="1698212640536" duration="1366000" />
-    </task>
-    <task id="LOCAL-00108" summary="Content Updated &quot;Car JS&quot;">
-      <created>1698047908130</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1698047908130</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Content Updated &quot;Car JS&quot;">
-      <created>1698047969057</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1698047969057</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Content Updated &quot;Car JS&quot;">
-      <created>1698048015940</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1698048015940</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Content Updated &quot;Car JS&quot;">
-      <created>1698048067270</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1698048067270</updated>
+      <workItem from="1698212640536" duration="2326000" />
     </task>
     <task id="LOCAL-00112" summary="Content Updated &quot;Car JS&quot;">
       <created>1698048140946</created>
@@ -542,14 +512,41 @@
       <option name="project" value="LOCAL" />
       <updated>1698170010851</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Content Updated &quot;Validations&quot;">
+      <created>1698214042175</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1698214042175</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Content Updated &quot;Validations&quot;">
+      <created>1698214103627</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1698214103628</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Content Updated &quot;Validations&quot;">
+      <created>1698214233095</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1698214233095</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Content Updated &quot;Validations&quot;">
+      <created>1698214263003</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1698214263003</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Main Page - Gallery&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Contact&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page - Footer&quot;" />
     <MESSAGE value="Content Updated &quot;Main Page&quot;" />
@@ -574,6 +571,7 @@
     <MESSAGE value="Content Updated &quot;DriverServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;DriverRepo&quot;" />
     <MESSAGE value="Content Updated &quot;DriverController&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;DriverController&quot;" />
+    <MESSAGE value="Content Updated &quot;Validations&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Validations&quot;" />
   </component>
 </project>
