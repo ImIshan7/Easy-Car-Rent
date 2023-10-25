@@ -41,6 +41,13 @@ public class CarController {
         return new ResponseUtil("OK", "Successfully Updated. :" + dto.getCar_Id(), null);
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @DeleteMapping(params = {"id"})
+    public ResponseUtil deleteCar(@RequestParam String id) {
+        service.deleteCar(id);
+        return new ResponseUtil("OK", "Successfully Deleted. :" + id, null);
+    }
+
 
 
 
