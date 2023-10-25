@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/CarDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/CarDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/CarRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/CarRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/CarDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/CarDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/CarRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/CarRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CarManage.html" afterDir="false" />
-    </list>
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,14 +194,7 @@
       <workItem from="1698131142003" duration="6697000" />
       <workItem from="1698138240486" duration="7153000" />
       <workItem from="1698212640536" duration="5839000" />
-      <workItem from="1698243179170" duration="3984000" />
-    </task>
-    <task id="LOCAL-00130" summary="Content Updated &quot;Add Reg_UserServiceImpl&quot;">
-      <created>1698054066377</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1698054066377</updated>
+      <workItem from="1698243179170" duration="4313000" />
     </task>
     <task id="LOCAL-00131" summary="Content Updated &quot;Add Reg_UserController&quot;">
       <created>1698055346613</created>
@@ -555,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698246610826</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Content Updated &quot;Car Controller&quot;">
+      <created>1698247488710</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1698247488710</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
