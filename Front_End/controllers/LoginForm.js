@@ -41,9 +41,9 @@ function login() {
                             }
                         });
 
-                        window.location.href = 'reg_UserDashboard.html';
+                        window.location.href = 'CustomerDashboard.html';
                     } else if (loginRole_Type === "ADMIN" && loginUserName === login.user_Name && loginPassword === login.password) {
-                        window.location.href = 'adminDashboard.html';
+                        window.location.href = 'AdminDashboard.html';
                     }
                     return;
                 }
