@@ -5,6 +5,7 @@ import lk.ijse.rental.entity.Admin;
 import lk.ijse.rental.repo.AdminRepo;
 import lk.ijse.rental.service.AdminService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -42,11 +43,15 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public void deleteAdmin(String reg_ID) {
-
+        if (!repo.existsById(reg_ID)) {
+            throw new RuntimeException("Wrong ID..Please enter valid id..!");
+        }
+        repo.deleteById(reg_ID);
     }
 
     @Override
     public ArrayList<AdminDTO> getAllAdmin() {
-        return null;
+        return mapper.map(repo.findAll(), new TypeToken<ArrayList<Admin>>() {
+        }.getType());
     }
 }
