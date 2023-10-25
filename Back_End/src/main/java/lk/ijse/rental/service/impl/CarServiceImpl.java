@@ -112,46 +112,52 @@ public class CarServiceImpl  implements CarService {
 
     @Override
     public CustomDTO carIdGenerate() {
-        return null;
+        return new CustomDTO(repo.getLastIndex());
+
     }
 
     @Override
     public Car searchCarId(String id) {
-        return null;
+        if (!repo.existsById(id)) {
+            throw new RuntimeException("Wrong ID. Please enter Valid id..!");
+        }
+        return mapper.map(repo.findById(id).get(), Car.class);
     }
 
     @Override
     public CustomDTO getSumCar() {
-        return null;
+        return new CustomDTO(repo.getSumCar());
     }
 
     @Override
     public CustomDTO getSumAvailableCar() {
-        return null;
+        return new CustomDTO(repo.getSumAvailableCar());
     }
 
     @Override
     public CustomDTO getSumReservedCar() {
-        return null;
+        return new CustomDTO(repo.getSumReservedCar());
     }
 
     @Override
     public CustomDTO getSumMaintainCar() {
-        return null;
+        return new CustomDTO(repo.getSumMaintainCar());
     }
 
     @Override
     public CustomDTO getSumUnderMaintainCar() {
-        return null;
+        return new CustomDTO(repo.getSumUnderMaintainCar());
     }
 
     @Override
     public ArrayList<CarDTO> getFilerData(String type, String fuelType) {
-        return null;
+        return mapper.map(repo.filterCar(type,fuelType), new TypeToken<ArrayList<Car>>() {
+        }.getType());
     }
 
     @Override
     public ArrayList<CarDTO> filterCarDetails(String name, String fuel_Type, String type, String transmission_Type) {
-        return null;
+        return mapper.map(repo.filterCarDetails(name,fuel_Type,type,transmission_Type), new TypeToken<ArrayList<Car>>() {
+        }.getType());
     }
 }
