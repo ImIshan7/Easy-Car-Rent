@@ -42,7 +42,38 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+/*Monthly Income*/
 
+    $.ajax({
+        url: baseUrlIncome + "income/monthlyIncome", method: "GET", dataType: "json", success: function (res) {
+            console.log(res);
+            for (let i = 0; i < res.length; i++) {
+                let date = res[i][0];
+                let count = res[i][1];
+                let total = res[i][2];
+                let row = "<tr><td>" + date + "</td><td>" + count + "</td><td>" + total + "</td></tr>";
+                $("#monthlyIncomeTable").append(row);
+
+                new Chart(document.querySelector('#monthlyIncomeChart'), {
+                    type: 'line', data: {
+                        labels: [date], datasets: [{
+                            label: 'Monthly Sales Income',
+                            data: [total],
+                            fill: false,
+                            borderColor: 'rgb(75, 192, 192)',
+                            tension: 0.1
+                        }]
+                    }, options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+        }
+    });
 
 
 
