@@ -44,5 +44,4 @@ public class Car {
     private String color;
     @Enumerated(EnumType.STRING)
     private AvailabilityType vehicleAvailabilityType;
-
 }
