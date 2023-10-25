@@ -7,6 +7,7 @@ import lk.ijse.rental.entity.Car;
 import lk.ijse.rental.repo.CarRepo;
 import lk.ijse.rental.service.CarService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -104,7 +105,9 @@ public class CarServiceImpl  implements CarService {
 
     @Override
     public ArrayList<CarDTO> getAllCar() {
-        return null;
+
+        return mapper.map(repo.findAll(), new TypeToken<ArrayList<Car>>() {
+        }.getType());
     }
 
     @Override
