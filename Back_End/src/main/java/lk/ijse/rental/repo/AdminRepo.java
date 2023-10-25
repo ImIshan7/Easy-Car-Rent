@@ -1,4 +1,7 @@
 package lk.ijse.rental.repo;
 
-public interface AdminRepo {
+import lk.ijse.rental.entity.Admin;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AdminRepo extends JpaRepository<Admin, String> {
 }
