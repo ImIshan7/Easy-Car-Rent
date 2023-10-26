@@ -155,3 +155,58 @@ $.ajax({
 
     }
 });
+
+/*Booking Complete Count*/
+
+$("#BookingActiveCount").val("00");
+$.ajax({
+    url: dashboard + "rent/bookingActive",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#BookingActiveCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+/*Maintain Car*/
+
+$("#maintainCarCount").val("00");
+$.ajax({
+    url: dashboard + "car/maintainCar",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#maintainCarCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+
+/*Under Maintain Car Count*/
+
+$("#underMaintainCarCount").val("00");
+$.ajax({
+    url: dashboard + "car/underMaintainCar",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#underMaintainCarCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
