@@ -45,5 +45,4 @@ public class AdminController {
         return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllAdmin());
     }
 
-
 }

@@ -9,8 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;AdminController&quot;">
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerDashBoardController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/DriverDashBoardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Enum" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -196,28 +201,10 @@
       <workItem from="1698131142003" duration="6697000" />
       <workItem from="1698138240486" duration="7153000" />
       <workItem from="1698212640536" duration="5839000" />
-      <workItem from="1698243179170" duration="5728000" />
-    </task>
-    <task id="LOCAL-00136" summary="Content Updated &quot;Fix the Bug in the Entity&quot;">
-      <created>1698064041465</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1698064041465</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Content Updated &quot;Add Driver DTO&quot;">
-      <created>1698131590984</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1698131590984</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Content Updated &quot;Add Driver Service&quot;">
-      <created>1698131679513</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1698131679513</updated>
+      <workItem from="1698243179170" duration="8205000" />
+      <workItem from="1698305094107" duration="729000" />
+      <workItem from="1698332504005" duration="2696000" />
+      <workItem from="1698335743433" duration="1028000" />
     </task>
     <task id="LOCAL-00139" summary="Content Updated &quot;Implement Method DriverServiceImpl&quot;">
       <created>1698131752482</created>
@@ -541,14 +528,34 @@
       <option name="project" value="LOCAL" />
       <updated>1698248608715</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Content Updated &quot;AdminController&quot;">
+      <created>1698248994080</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1698248994080</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Content Updated &quot;AdminController&quot;">
+      <created>1698249208573</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1698249208573</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Content Updated &quot;AdminController&quot;">
+      <created>1698249226065</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1698249226065</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Add Web AppConfig &quot;" />
     <MESSAGE value="Content Updated &quot;Add WebAppInitializer &quot;" />
     <MESSAGE value="Content Updated &quot;Add Advisor &quot;" />
     <MESSAGE value="Content Updated &quot;Add Customer Entity and DTO &quot;" />
@@ -573,6 +580,7 @@
     <MESSAGE value="Content Updated &quot;Admin DTO&quot;" />
     <MESSAGE value="Content Updated &quot;Implement Method In AdminServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;AdminServiceImpl&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;AdminServiceImpl&quot;" />
+    <MESSAGE value="Content Updated &quot;AdminController&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;AdminController&quot;" />
   </component>
 </project>
