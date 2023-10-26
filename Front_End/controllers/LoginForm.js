@@ -29,7 +29,7 @@ function login() {
                             }
                         })
 
-                        window.location.href = 'driverDashboard.html';
+                        window.location.href = 'DriverDashboard.html';
 
 
                     } else if (loginRole_Type === "REGISTERED_USER" && loginUserName === login.user_Name && loginPassword === login.password) {
