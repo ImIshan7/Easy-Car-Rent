@@ -19,3 +19,17 @@ $.ajax({
     }
 });
 
+/*Available Car Count*/
+$("#availableCarCount").val("00");
+$.ajax({
+    url: dashboard + "car/availablCarCount",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#availableCarCount").text(num);
+    },
+    error: function (ob, statusText, error) {
+    }
+});
