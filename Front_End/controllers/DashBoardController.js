@@ -49,3 +49,22 @@ $.ajax({
     }
 });
 
+
+/*Driver Count*/
+
+$("#driverCount").val("00");
+$.ajax({
+    url: dashboard + "driver/driverCount",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#driverCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+

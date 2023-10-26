@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/DashBoardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/DashBoardController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,35 +199,7 @@
       <workItem from="1698243179170" duration="8205000" />
       <workItem from="1698305094107" duration="729000" />
       <workItem from="1698332504005" duration="2696000" />
-      <workItem from="1698335743433" duration="7218000" />
-    </task>
-    <task id="LOCAL-00146" summary="Content Updated &quot;DriverRepo&quot;">
-      <created>1698132531600</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132531600</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Content Updated &quot;DriverController&quot;">
-      <created>1698132650996</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132650996</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Content Updated &quot;DriverController&quot;">
-      <created>1698132677739</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132677739</updated>
-    </task>
-    <task id="LOCAL-00149" summary="Content Updated &quot;DriverController&quot;">
-      <created>1698132699397</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132699397</updated>
+      <workItem from="1698335743433" duration="7540000" />
     </task>
     <task id="LOCAL-00150" summary="Content Updated &quot;DriverController&quot;">
       <created>1698132722611</created>
@@ -544,14 +516,41 @@
       <option name="project" value="LOCAL" />
       <updated>1698339968700</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698343736733</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1698343736733</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Content Updated &quot;DashBoard Controller JS&quot;">
+      <created>1698343905660</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1698343905661</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Content Updated &quot;DashBoard Controller JS&quot;">
+      <created>1698343958128</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1698343958128</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Content Updated &quot;DashBoard Controller JS&quot;">
+      <created>1698344016409</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1698344016409</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Add Advisor &quot;" />
     <MESSAGE value="Content Updated &quot;Add Customer Entity and DTO &quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserService &quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserServiceImpl&quot;" />
@@ -576,6 +575,7 @@
     <MESSAGE value="Content Updated &quot;AdminServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;AdminController&quot;" />
     <MESSAGE value="Content Updated &quot;Rent Controller JS&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Rent Controller JS&quot;" />
+    <MESSAGE value="Content Updated &quot;DashBoard Controller JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;DashBoard Controller JS&quot;" />
   </component>
 </project>
