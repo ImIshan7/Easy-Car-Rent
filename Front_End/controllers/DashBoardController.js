@@ -68,3 +68,90 @@ $.ajax({
     }
 });
 
+/*Available Driver Count*/
+$("#availableDriverCount").val("00");
+$.ajax({
+    url: dashboard + "driver/driverAvailableCount",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#availableDriverCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+/*Unavailable Driver Count*/
+
+$("#unAvailableDriverCount").val("00");
+$.ajax({
+    url: dashboard + "driver/driverUnavailableCount",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#unAvailableDriverCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+/*Customer Count*/
+
+$("#customerCount").val("00");
+$.ajax({
+    url: dashboard + "reg_User/customerCount",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#customerCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+/*Booking Count*/
+$("#BookingCount").val("00");
+$.ajax({
+    url: dashboard + "rent/booking",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#BookingCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
+
+/*Booking Pending Count*/
+
+$("#BookingPendingCount").val("00");
+$.ajax({
+    url: dashboard + "rent/bookingPending",
+    method: "GET",
+    contentType: "application/json",
+    dataType: "json",
+    success: function (resp) {
+        let num = resp.count;
+        $("#BookingPendingCount").text(num);
+
+    },
+    error: function (ob, statusText, error) {
+
+    }
+});
