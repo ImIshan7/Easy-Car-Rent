@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/RentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/RentController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/AdminDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/RentDetails.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,42 +201,7 @@
       <workItem from="1698243179170" duration="8205000" />
       <workItem from="1698305094107" duration="729000" />
       <workItem from="1698332504005" duration="2696000" />
-      <workItem from="1698335743433" duration="1469000" />
-    </task>
-    <task id="LOCAL-00140" summary="Content Updated &quot;DriverServiceImpl&quot;">
-      <created>1698131952702</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1698131952702</updated>
-    </task>
-    <task id="LOCAL-00141" summary="Content Updated &quot;DriverServiceImpl&quot;">
-      <created>1698131998473</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1698131998473</updated>
-    </task>
-    <task id="LOCAL-00142" summary="Content Updated &quot;DriverServiceImpl&quot;">
-      <created>1698132253438</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132253438</updated>
-    </task>
-    <task id="LOCAL-00143" summary="Content Updated &quot;DriverServiceImpl&quot;">
-      <created>1698132410192</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132410192</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Content Updated &quot;DriverRepo&quot;">
-      <created>1698132460479</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132460479</updated>
+      <workItem from="1698335743433" duration="4126000" />
     </task>
     <task id="LOCAL-00145" summary="Content Updated &quot;DriverRepo&quot;">
       <created>1698132499274</created>
@@ -544,7 +511,42 @@
       <option name="project" value="LOCAL" />
       <updated>1698337097738</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337222266</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337222266</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337325416</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337325416</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337435159</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337435159</updated>
+    </task>
+    <task id="LOCAL-00192" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337473077</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337473077</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337496853</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337496853</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
