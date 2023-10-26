@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;AdminController&quot;">
-      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerDashBoardController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/DriverDashBoardController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerDashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/RentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/RentController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +199,7 @@
       <workItem from="1698243179170" duration="8205000" />
       <workItem from="1698305094107" duration="729000" />
       <workItem from="1698332504005" duration="2696000" />
-      <workItem from="1698335743433" duration="1028000" />
-    </task>
-    <task id="LOCAL-00139" summary="Content Updated &quot;Implement Method DriverServiceImpl&quot;">
-      <created>1698131752482</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1698131752482</updated>
+      <workItem from="1698335743433" duration="1469000" />
     </task>
     <task id="LOCAL-00140" summary="Content Updated &quot;DriverServiceImpl&quot;">
       <created>1698131952702</created>
@@ -549,14 +537,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698249226065</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Content Updated &quot;Rent Controller JS&quot;">
+      <created>1698337097737</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1698337097738</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Add WebAppInitializer &quot;" />
     <MESSAGE value="Content Updated &quot;Add Advisor &quot;" />
     <MESSAGE value="Content Updated &quot;Add Customer Entity and DTO &quot;" />
     <MESSAGE value="Content Updated &quot;Add Reg_UserService &quot;" />
@@ -581,6 +575,7 @@
     <MESSAGE value="Content Updated &quot;Implement Method In AdminServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;AdminServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;AdminController&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;AdminController&quot;" />
+    <MESSAGE value="Content Updated &quot;Rent Controller JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Rent Controller JS&quot;" />
   </component>
 </project>
