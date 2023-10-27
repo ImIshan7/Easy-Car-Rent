@@ -9,23 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
+    <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="Content Updated &quot;DashBoard Controller JS&quot;">
+      <change afterPath="$PROJECT_DIR$/../Front_End/controllers/IndexController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cfccd228-8fa9-4605-9b99-86112c2d4405/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cfccd228-8fa9-4605-9b99-86112c2d4405/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/AdminDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/dto/AdminDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/AdminRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/repo/AdminRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Back_End-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/AdminDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/dto/AdminDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/AdminRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/repo/AdminRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/rental/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/CustomerManage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/pages/DriverDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CarController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,14 +203,9 @@
       <workItem from="1698243179170" duration="8205000" />
       <workItem from="1698305094107" duration="729000" />
       <workItem from="1698332504005" duration="2696000" />
-      <workItem from="1698335743433" duration="10936000" />
-    </task>
-    <task id="LOCAL-00153" summary="Content Updated &quot;DriverController&quot;">
-      <created>1698132841927</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1698132841927</updated>
+      <workItem from="1698335743433" duration="11200000" />
+      <workItem from="1698414781987" duration="3445000" />
+      <workItem from="1698423225513" duration="994000" />
     </task>
     <task id="LOCAL-00154" summary="Content Updated &quot;DriverController&quot;">
       <created>1698132903031</created>
@@ -559,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698344431605</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="Content Updated &quot;DashBoard Controller JS&quot;">
+      <created>1698347700502</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1698347700502</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
