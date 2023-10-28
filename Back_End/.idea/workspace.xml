@@ -10,14 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aaf3454-c01b-4bcc-b825-768ab7359f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/Driver_ScheduleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/IncomeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/ReserveController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/controller/IncomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/ReserveDetailsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/dto/ScheduleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/ReserveRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/rental/repo/IncomeRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Front_End/controllers/CustomerDashBoardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Front_End/controllers/CustomerDashBoardController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,35 +203,7 @@
       <workItem from="1698335743433" duration="11200000" />
       <workItem from="1698414781987" duration="3445000" />
       <workItem from="1698423225513" duration="4203000" />
-      <workItem from="1698500018222" duration="2371000" />
-    </task>
-    <task id="LOCAL-00167" summary="Content Updated &quot;Implement Method CarServiceImpl&quot;">
-      <created>1698244681460</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1698244681460</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Content Updated &quot;CarServiceImpl&quot;">
-      <created>1698245244445</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1698245244445</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Content Updated &quot;CarServiceImpl&quot;">
-      <created>1698245330729</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1698245330729</updated>
-    </task>
-    <task id="LOCAL-00170" summary="Content Updated &quot;CarServiceImpl&quot;">
-      <created>1698245364852</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1698245364852</updated>
+      <workItem from="1698500018222" duration="2683000" />
     </task>
     <task id="LOCAL-00171" summary="Content Updated &quot;CarServiceImpl&quot;">
       <created>1698245477375</created>
@@ -556,14 +520,41 @@
       <option name="project" value="LOCAL" />
       <updated>1698501232735</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="Content Updated &quot;Customer DashBoard JS&quot;">
+      <created>1698503972874</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1698503972874</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Content Updated &quot;Customer DashBoard JS&quot;">
+      <created>1698504030162</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1698504030162</updated>
+    </task>
+    <task id="LOCAL-00218" summary="Content Updated &quot;Customer DashBoard JS&quot;">
+      <created>1698504097019</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1698504097019</updated>
+    </task>
+    <task id="LOCAL-00219" summary="Content Updated &quot;Customer DashBoard JS&quot;">
+      <created>1698504136808</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1698504136808</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Content Updated &quot;Implement Method DriverServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;DriverServiceImpl&quot;" />
     <MESSAGE value="Content Updated &quot;DriverRepo&quot;" />
     <MESSAGE value="Content Updated &quot;DriverController&quot;" />
@@ -588,6 +579,7 @@
     <MESSAGE value="Content Updated &quot;UserController&quot;" />
     <MESSAGE value="Content Updated &quot;LoginController&quot;" />
     <MESSAGE value="Content Updated &quot;Car Images&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Car Images&quot;" />
+    <MESSAGE value="Content Updated &quot;Customer DashBoard JS&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content Updated &quot;Customer DashBoard JS&quot;" />
   </component>
 </project>
