@@ -174,3 +174,86 @@ function loadCartTableDetail() {
 
     $("#cartTable").append(row);
 }
+
+/*Remove Row*/
+
+$("#cartTable").dblclick(function () {
+    Swal.fire({
+        title: 'Do you want to Delete the Select row?',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Yes',
+        denyButtonText: 'No',
+        customClass: {
+            actions: 'my-actions', cancelButton: 'order-1 right-gap', confirmButton: 'order-2', denyButton: 'order-3',
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            $(this).children('tr').eq(0).remove();
+            Swal.fire('Delete!', '', 'success')
+        } else if (result.isDenied) {
+            Swal.fire('Select row are not Delete', '', 'info')
+        }
+    })
+});
+
+/*Place Order*/
+
+$("#btnReservation").click(function () {
+    let rentDetails = [];
+    for (let i = 0; i < $("#cartTable tr").length; i++) {
+        var rentDetail = {
+            carID: $("#cartTable").children(`:eq(${i})`).children(":eq(0)").text(),
+            rentID: $("#rent_Id").val(),
+            driverID: null
+        }
+        rentDetails.push(rentDetail);
+    }
+
+    for (let i = 0; i < $("#cartTable tr").length; i++) {
+        let rentID = $("#rent_Id").val();
+        let pickUpDate = $("#cartTable").children(`:eq(${i})`).children(":eq(1)").text();
+        let pickUpTime = $("#cartTable").children(`:eq(${i})`).children(":eq(2)").text();
+        let returnDate = $("#cartTable").children(`:eq(${i})`).children(":eq(3)").text();
+        let returnTime = $("#cartTable").children(`:eq(${i})`).children(":eq(4)").text();
+        let requestType = $("#cartTable").children(`:eq(${i})`).children(":eq(5)").text();
+        let rentType = "PENDING";
+        let location = $("#cartTable").children(`:eq(${i})`).children(":eq(6)").text();
+        let userID = $("#user_Id").val();
+
+        let rentOB = {
+            rentID: rentID,
+            pickUpDate: pickUpDate,
+            pickUpTime: pickUpTime,
+            returnDate: returnDate,
+            returnTime: returnTime,
+            requestType: requestType,
+            rentType: rentType,
+            location: location,
+            regUser: {user_Id: userID},
+            rentDetails: rentDetails
+        }
+        console.log(rentDetails)
+        console.log(rentOB)
+
+
+        $.ajax({
+            url: RentbaseUrl + "rent",
+            method: "POST",
+            contentType: "application/json",
+            dataType: "json",
+            data: JSON.stringify(rentOB),
+            success: function (res) {
+                saveUpdateAlert("Rent", res.message);
+                generateRentID();
+                loadAllRent();
+            },
+            error: function (error) {
+                // let message = JSON.parse(error.responseText).message;
+                // unSuccessUpdateAlert("Rent", message);
+            }
+
+        });
+    }
+    $("#cartTable").empty();
+});
