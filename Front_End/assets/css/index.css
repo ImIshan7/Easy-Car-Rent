@@ -1022,7 +1022,7 @@ About Section*/
 
 .cars .tab-content .cars-item .ingredients {
     font-family: "JetBrains Mono";
-    color: #8d8d9b;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 
@@ -1034,8 +1034,8 @@ About Section*/
 
 .txt-head {
     font-weight: bolder;
-    color:#007BF1FF;
-    font-family: "sans-serif", serif;
+    color: #fd8b05;
+    font-family: "JetBrains Mono ExtraLight";
     font-size: 30px;
 }
 
@@ -1055,7 +1055,7 @@ About Section*/
 }
 
 .list-group-item {
-    background: #eee;
+    background: #606060;
     padding: 6px;
     margin-bottom: -1px;
     border-radius: 15px;
@@ -1092,7 +1092,7 @@ About Section*/
 .fontSize {
     font-size: 1.1em;
     font-weight: bolder;
-    color:  #37373f;
+    color: #ffffff;
     opacity: 0.8;
 }
 
@@ -1111,7 +1111,7 @@ About Section*/
 }
 
 .span {
-    color: #e74c3c;
+    color: #fd8b05;
     font-size: 1.1em;
     font-weight: bolder;
     opacity: 0.8;

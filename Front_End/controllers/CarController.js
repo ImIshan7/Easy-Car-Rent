@@ -256,7 +256,7 @@ $("#btnDeleteCar").click(function () {
 /*Validation*/
 
 $("#name").focus();
-const regExBrand = /^[A-z ]{3,20}$/;
+const regExBrand = /^[A-z 0-9]{3,20}$/;
 const regExModel = /^[A-z 0-9]{3,20}$/;
 const regExType = /^[A-z ]{3,20}$/;
 const regExNoPassengers = /^[0-9 ]{1,2}$/;
