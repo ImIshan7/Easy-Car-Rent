@@ -1,4 +1,4 @@
 package lk.ijse.rental.repo;
 
-public interface ReserveRepo {
+public interface IncomeRepo {
 }

@@ -1,4 +1,4 @@
 package lk.ijse.rental.dto;
 
-public class ScheduleDTO {
+public class IncomeDTO {
 }
