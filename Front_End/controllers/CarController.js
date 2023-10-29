@@ -300,7 +300,7 @@ carValidations.push({
 carValidations.push({
     reg: regExRegNumber,
     field: $('#registration_Number'),
-    error: 'Car Register Number Pattern is Wrong (CDF-001/123-DFG)'
+    error: 'Car Register Number Pattern is Wrong (CDF-001)'
 });
 carValidations.push({
     reg: regExMileage, field: $('#free_Mileage'), error: 'Car Free Mileage Pattern is Wrong'

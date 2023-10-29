@@ -1,4 +1,4 @@
 package lk.ijse.rental.service.impl;
 
-public class ReserveServiceImpl {
+public class IncomeServiceImpl {
 }

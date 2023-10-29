@@ -1,4 +1,4 @@
 package lk.ijse.rental.service;
 
-public interface ReserveService {
+public interface IncomeService {
 }
