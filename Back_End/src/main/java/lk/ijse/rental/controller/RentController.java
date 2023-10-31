@@ -41,4 +41,10 @@ public class RentController {
         return service.getSumOfBookingPending();
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/bookingActive")
+    public @ResponseBody CustomDTO getSumOfBookingActive() {
+        return service.getSumOfBookingActive();
+    }
+
 }
