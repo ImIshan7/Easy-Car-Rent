@@ -80,7 +80,7 @@ public class RentServiceImpl implements RentService {
 
     @Override
     public CustomDTO getSumOfBookingPending() {
-        return null;
+        return new CustomDTO(rentRepo.getSumOfBookingPending());
     }
 
     @Override
