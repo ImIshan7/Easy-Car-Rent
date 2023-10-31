@@ -1,11 +1,11 @@
 package lk.ijse.rental.controller;
 
 
+import lk.ijse.rental.dto.CustomDTO;
 import lk.ijse.rental.service.RentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
@@ -13,6 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class RentController {
     @Autowired
     private RentService service;
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/rentIdGenerate")
+    public @ResponseBody CustomDTO customerIdGenerate() {
+        return service.rentIdGenerate();
+    }
 
 
 }
