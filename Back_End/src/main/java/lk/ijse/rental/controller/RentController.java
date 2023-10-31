@@ -29,5 +29,10 @@ public class RentController {
         return new ResponseUtil("Ok", "Successfully Purchased.!", null);
     }
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/booking")
+    public @ResponseBody CustomDTO getSumOfBooking() {
+        return service.getSumOfBooking();
+    }
 
 }
