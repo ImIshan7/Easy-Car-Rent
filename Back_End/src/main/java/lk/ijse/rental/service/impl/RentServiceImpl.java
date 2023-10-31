@@ -2,7 +2,12 @@ package lk.ijse.rental.service.impl;
 
 import lk.ijse.rental.dto.CustomDTO;
 import lk.ijse.rental.dto.RentDTO;
+import lk.ijse.rental.repo.CarRepo;
+import lk.ijse.rental.repo.DriverRepo;
+import lk.ijse.rental.repo.RentRepo;
 import lk.ijse.rental.service.RentService;
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,10 +18,18 @@ import java.util.ArrayList;
 @Transactional
 public class RentServiceImpl implements RentService {
 
+    @Autowired
+    private RentRepo rentRepo;
+    @Autowired
+    private CarRepo carRepo;
+    @Autowired
+    private DriverRepo driverRepo;
+    @Autowired
+    private ModelMapper mapper;
 
     @Override
     public CustomDTO rentIdGenerate() {
-        return null;
+        return new CustomDTO(rentRepo.getLastIndex());
     }
 
     @Override
