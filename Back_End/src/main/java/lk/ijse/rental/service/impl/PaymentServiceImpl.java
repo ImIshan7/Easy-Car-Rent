@@ -12,6 +12,7 @@ import lk.ijse.rental.repo.PaymentRepo;
 import lk.ijse.rental.repo.RentRepo;
 import lk.ijse.rental.service.PaymentService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -82,8 +83,8 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public ArrayList<PaymentDTO> getAllPayment() {
-
-        return mapper.map(paymentRepo.findAll(), new org.modelmapper.TypeToken<ArrayList<PaymentDTO>>() {
+        return mapper.map(paymentRepo.findAll(), new TypeToken<ArrayList<PaymentDTO>>() {
         }.getType());
+
     }
 }

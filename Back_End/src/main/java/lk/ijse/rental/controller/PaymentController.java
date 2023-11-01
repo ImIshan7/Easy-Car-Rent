@@ -26,16 +26,18 @@ public class PaymentController {
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
     public ResponseUtil savePayment(@RequestBody PaymentDTO dto, @RequestParam String rentID) {
-       /* System.out.println(dto);
-        System.out.println(rentID);*/
+        System.out.println(dto);
+        System.out.println(rentID);
         service.savePayment(dto, rentID);
         return new ResponseUtil("OK", "Successfully Payment.!", null);
     }
 
+
+
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping
     public ResponseUtil getAllPayment() {
-        return new ResponseUtil("OK", "Successfully Loaded. :", service.getAllPayment());
+        return new ResponseUtil("OK", "Successfully Loaded. :", service. getAllPayment());
     }
 
 

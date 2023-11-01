@@ -84,6 +84,8 @@ public class CarController {
         return service.getSumAvailableCar();
     }
 
+
+
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/reservedCarCount")
     public @ResponseBody CustomDTO getSumReservedCar() {

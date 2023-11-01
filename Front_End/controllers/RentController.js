@@ -250,11 +250,9 @@ $("#btnPay").on("click", function () {
     let driverFee = $("#driverFee").val();
     let total = $("#total").val();
 
-    var paymentOb = {
-        paymentID: paymentId,
-        rentID: {
-            rentID: rentID
-        },
+    let paymentOb = {
+        paymentId: paymentId,
+        rentId: rentID,
         paymentType: paymentType,
         date: paymentDate,
         time: paymentTime,
