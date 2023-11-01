@@ -82,6 +82,8 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public ArrayList<PaymentDTO> getAllPayment() {
-        return null;
+
+        return mapper.map(paymentRepo.findAll(), new org.modelmapper.TypeToken<ArrayList<PaymentDTO>>() {
+        }.getType());
     }
 }
