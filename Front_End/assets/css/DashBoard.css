@@ -231,7 +231,8 @@ h6 {
     margin-bottom: 30px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(1, 41, 112, 0.1);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: #3d3c3c;
 }
 
 .card-header,
@@ -245,9 +246,9 @@ h6 {
 .card-title {
     padding: 20px 0 15px 0;
     font-size: 18px;
-    font-weight: 500;
-    color: #012970;
-    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "JetBrains Mono ExtraLight";
 }
 
 .card-title span {
@@ -265,7 +266,7 @@ h6 {
 }
 
 .card-img-overlay {
-    background-color: rgba(4, 88, 175, 0.6);
+    background-color: rgb(255, 174, 0);
 }
 
 /* Alerts */
@@ -736,7 +737,7 @@ form .btn {
 .sidebar-nav .nav-heading {
     font-size: 11px;
     text-transform: uppercase;
-    color: #fd8b05;
+    color: #ffa12c;
     font-weight: 600;
     margin: 10px 0 5px 15px;
 }
@@ -866,9 +867,9 @@ form .btn {
 
 .dashboard .info-card h6 {
     font-size: 28px;
-    color: #012970;
-    font-weight: 700;
-    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 25px;
     padding: 0;
 }
 
@@ -879,6 +880,8 @@ form .btn {
     height: 64px;
     flex-shrink: 0;
     flex-grow: 0;
+    /*color: #00ff2d;
+    background-image: url("../img/Background.jpg");*/
 }
 
 .dashboard .car-card .card-icon {
@@ -1076,4 +1079,89 @@ form .btn {
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
+}
+
+#caricon{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/icons8-car-64.png");
+
+}
+
+#Avcar{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/aviable.png");
+}
+
+#ReCar{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/reserved.png");
+}
+
+#drivericon{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/driver-64.png");
+}
+
+#avDriver{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/avDriver.png");
+}
+
+#unAvdriver{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/UnADriver.png");
+}
+
+#avCustomer{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/customer-64.png");
+}
+
+#mtCar{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/icons8-car-rental-64.png");
+}
+
+#unMcar{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/undermaintain.png");
+}
+
+#bookingC{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/booking.png");
+}
+
+#bookingP{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/bookingpending.png");
+}
+
+#bookingA{
+    background-color:#3d3c3c;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/message/bookingactive.png");
 }

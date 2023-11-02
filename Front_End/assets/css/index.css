@@ -392,7 +392,7 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover > a {
-        color: #000;
+        color: #67fffd;
     }
 
     .navbar .dropdown ul {
@@ -478,7 +478,7 @@ section {
         right: -100%;
         width: 100%;
         max-width: 400px;
-        border-left: 1px solid #666;
+        border-left: 1px solid #67fffd;
         bottom: 0;
         transition: 0.3s;
         z-index: 9997;
@@ -519,12 +519,12 @@ section {
 
     .navbar a:hover,
     .navbar li:hover > a {
-        color: #000;
+        color: #67fffd;
     }
 
     .navbar .active,
     .navbar .active:focus {
-        color: #000;
+        color: #67fffd;
         border-color: var(--color-primary);
     }
 
