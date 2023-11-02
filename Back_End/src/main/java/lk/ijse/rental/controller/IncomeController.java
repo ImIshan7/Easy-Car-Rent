@@ -24,4 +24,9 @@ public class IncomeController {
     }
 
 
+    @ResponseStatus(HttpStatus.CREATED)
+    @GetMapping(path = "/monthlyIncome")
+    public @ResponseBody ArrayList<IncomeDTO> monthlyIncome() {
+        return service.monthlyIncome();
+    }
 }
