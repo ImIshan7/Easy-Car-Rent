@@ -46,7 +46,7 @@ public class Reg_UserController {
     @DeleteMapping(params = {"id"})
     public ResponseUtil deleteUser(@RequestParam String id) {
         service.deleteUser(id);
-        return new ResponseUtil("OK", "Successfully Deleted. :" + id, null);
+        return new ResponseUtil("OK", "Successfully Deleted. :" + id, id);
     }
 
     @ResponseStatus(HttpStatus.CREATED)
